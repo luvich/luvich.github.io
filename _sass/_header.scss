@@ -34,6 +34,7 @@
 }
 .menu-link {
   padding: 5px 10px;
+  position: relative;
 }
 
 /*
@@ -91,4 +92,35 @@
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
+}
+
+/* Additional CSS for submenu positioning */
+.menu-item {
+  position: relative;
+}
+
+.menu-item .submenu {
+  display: none;
+  position: absolute;
+  left: 100%; /* Adjust this to move the submenu to the right side */
+  top: 0; /* Aligns the submenu with the top of the parent menu item */
+  white-space: nowrap; /* Prevent submenu items from wrapping */
+  background: white; /* Change background color as needed */
+  border: 1px solid #ccc; /* Add a border if desired */
+  z-index: 1000; /* Ensure submenu appears above other elements */
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #f1f1f1;
 }
