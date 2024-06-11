@@ -1,0 +1,11 @@
+.breadcrumbs {
+  font-size: 14px;
+  margin: 10px 0;
+  a {
+    text-decoration: none;
+    color: $brand-color;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
