@@ -2,7 +2,7 @@
 layout: category
 title: "Mathematics"
 category: "maths"
-permalink: /maths
+permalink: /maths/
 breadcrumb:
   - title: "Home"
     url: "/"
