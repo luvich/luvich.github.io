@@ -7,11 +7,26 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Mathematics',  url: 'maths'}
-- {name: 'Artificial Intelligence',       url: 'ai'}
-- {name: 'Learning Resources', url: 'resources'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+  - name: 'Mathematics'
+    url: 'maths'
+    subcategories:
+      - name: 'Algebra'
+        url: 'maths/algebra'
+  - name: 'Artificial Intelligence'
+    url: 'ai'
+  - name: 'Learning Resources'
+    url: 'resources'
+  - name: 'About'
+    url: 'about'
+  - name: 'Contact'
+    url: 'contact'
+#- {name: 'Mathematics',  url: 'maths', subcategories:
+#      - name: 'Algebra'
+#        url: 'maths/algebra'}
+#- {name: 'Artificial Intelligence',       url: 'ai'}
+#- {name: 'Learning Resources', url: 'resources'}
+#- {name: 'About',              url: 'about'}
+#- {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
