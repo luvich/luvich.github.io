@@ -2,7 +2,7 @@
 layout: category
 title: "Algebra"
 category: "algebra"
-parent_category: "Maths"
+parent_category: "Mathematics"
 breadcrumb:
   - title: "Mathematics"
     url: "/maths"
