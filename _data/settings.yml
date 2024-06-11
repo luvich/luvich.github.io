@@ -7,10 +7,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
+- {name: 'Mathematics',  url: 'maths'}
+- {name: 'Artificial Intelligence',       url: 'ai'}
 - {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
 - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
 
