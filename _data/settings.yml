@@ -20,22 +20,21 @@ menu:
     url: 'about'
   - name: 'Contact'
     url: 'contact'
-#- {name: 'Mathematics',  url: 'maths', subcategories:
-#      - name: 'Algebra'
-#        url: 'maths/algebra'}
-#- {name: 'Artificial Intelligence',       url: 'ai'}
-#- {name: 'Learning Resources', url: 'resources'}
-#- {name: 'About',              url: 'about'}
-#- {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://x.com/hoathekiet'}
-- {icon: 'facebook', link:   'https://www.facebook.com/hoathekiet/'}
-- {icon: 'instagram', link:  'https://www.instagram.com/hoathekiet/'}
-#- {icon: 'envelope', link:   'chuongluong266@gmail.com'}
-#- {icon: 'rss-square', link: ''}
-# - {icon: 'rss-square', link: 'rss-feed.xml'}
+  - icon: 'twitter'
+    link: 'https://x.com/hoathekiet'
+  - icon: 'facebook'
+    link: 'https://www.facebook.com/hoathekiet/'
+  - icon: 'instagram'
+    link: 'https://www.instagram.com/hoathekiet/'
+  # - icon: 'envelope'
+  #   link: 'chuongluong266@gmail.com'
+  # - icon: 'rss-square'
+  #   link: ''
+  # - icon: 'rss-square'
+  #   link: 'rss-feed.xml'
 
 # Customize site text
 pagination:
@@ -43,7 +42,5 @@ pagination:
   previous_page: 'Older'
 
 sharing_button_prompt: 'Feel free to share!'
-
 related_posts: 'You may also enjoy...'
-
 post_date_prefix: 'Written on'
