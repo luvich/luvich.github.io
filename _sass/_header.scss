@@ -31,15 +31,14 @@
 .menu-list {
   line-height: $header-thickness;
   float: right;
+  display: flex;
+  align-items: center;
 }
 .menu-link {
   padding: 5px 10px;
-  position: relative;
 }
 
-/*
-  Responsiveness with a dropdown menu
-*/
+/* Responsiveness with a dropdown menu */
 
 @media (min-width: $container-width) {
   .dropbtn {
@@ -48,37 +47,7 @@
   .dropdown-content {
     display: none;
   }
-  .menu-item {
-    position: relative;
-  }
-
-  .menu-item .submenu {
-    display: none;
-    position: absolute;
-    left: 100%; /* Adjust this to move the submenu to the right side */
-    top: 0; /* Aligns the submenu with the top of the parent menu item */
-    white-space: nowrap; /* Prevent submenu items from wrapping */
-    background: white; /* Change background color as needed */
-    border: 1px solid #ccc; /* Add a border if desired */
-    z-index: 1000; /* Ensure submenu appears above other elements */
-  }
-
-  .menu-item:hover .submenu {
-    display: block;
-  }
-
-  .submenu a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .submenu a:hover {
-    background-color: #f1f1f1;
-  }
 }
-
 @media (max-width: $container-width) {
   .menu-list {
     display: none;
@@ -122,22 +91,33 @@
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
+}
 
-  .menu-item .submenu {
-    position: relative;
-    left: auto;
-    top: auto;
-    background: #f9f9f9; /* Ensure the background matches the dropdown */
-    border: none; /* Remove border if not needed */
-    box-shadow: none; /* Remove box-shadow if not needed */
+/* Submenu positioning for desktop view */
+@media (min-width: $container-width) {
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
   }
-
-  .menu-item:hover .submenu {
+  .dropdown:hover .dropdown-content {
     display: block;
-    margin-top: 0;
   }
-
-  .submenu a {
-    padding: 8px 16px; /* Adjust padding for better fit on mobile */
+  .dropdown:hover .menu-link {
+    background-color: #f1f1f1;
+  }
+  .dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown-content {
+    right: 0;
   }
 }
