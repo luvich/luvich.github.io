@@ -4,8 +4,32 @@
   <body>
     <div class="container">
       {% include header.html %}
+      <div class="breadcrumb">
+        {% if page.breadcrumb %}
+          {% for crumb in page.breadcrumb %}
+            {% if crumb.url %}
+              <a href="{{ crumb.url }}">{{ crumb.title }}</a>
+            {% else %}
+              {{ crumb.title }}
+            {% endif %}
+            {% if forloop.last == false %}
+              > 
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          <a href="{{ site.baseurl }}">Home</a>
+          {% assign crumbs = page.url | split: '/' %}
+          {% for crumb in crumbs %}
+            {% if crumb %}
+              {% if forloop.last == false %}
+                > 
+              {% endif %}
+              <a href="{{ site.baseurl }}{% for i in (1..forloop.index0) %}/{{ crumbs[i] }}{% endfor %}">{{ crumb | capitalize }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
       <div class="content-wrapper">
-        {% include breadcrumbs.html %}
         {{ content }}
       </div>
       {% include footer.html %}
