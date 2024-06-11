@@ -8,5 +8,5 @@ breadcrumb:
   - title: "Mathematics"
     url: "/maths"
   - title: "Algebra"
-permalink: /maths/algebra
+permalink: /maths/algebra/
 ---
