@@ -1,4 +1,3 @@
-# File: _categories/algebra.md
 ---
 layout: category
 title: "Algebra"
