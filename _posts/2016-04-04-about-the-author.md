@@ -3,7 +3,7 @@ layout: post
 title: "Vector"
 author: "Luvich"
 categories: maths
-tags: [linear-algebra], [mathematics]
+tags: [linear-algebra, mathematics]
 image: vector_cover.svg.png
 ---
 
