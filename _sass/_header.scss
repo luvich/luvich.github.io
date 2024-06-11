@@ -48,7 +48,37 @@
   .dropdown-content {
     display: none;
   }
+  .menu-item {
+    position: relative;
+  }
+
+  .menu-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%; /* Adjust this to move the submenu to the right side */
+    top: 0; /* Aligns the submenu with the top of the parent menu item */
+    white-space: nowrap; /* Prevent submenu items from wrapping */
+    background: white; /* Change background color as needed */
+    border: 1px solid #ccc; /* Add a border if desired */
+    z-index: 1000; /* Ensure submenu appears above other elements */
+  }
+
+  .menu-item:hover .submenu {
+    display: block;
+  }
+
+  .submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .submenu a:hover {
+    background-color: #f1f1f1;
+  }
 }
+
 @media (max-width: $container-width) {
   .menu-list {
     display: none;
@@ -84,7 +114,7 @@
     display: block;
   }
   .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -92,35 +122,22 @@
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
-}
 
-/* Additional CSS for submenu positioning */
-.menu-item {
-  position: relative;
-}
+  .menu-item .submenu {
+    position: relative;
+    left: auto;
+    top: auto;
+    background: #f9f9f9; /* Ensure the background matches the dropdown */
+    border: none; /* Remove border if not needed */
+    box-shadow: none; /* Remove box-shadow if not needed */
+  }
 
-.menu-item .submenu {
-  display: none;
-  position: absolute;
-  left: 100%; /* Adjust this to move the submenu to the right side */
-  top: 0; /* Aligns the submenu with the top of the parent menu item */
-  white-space: nowrap; /* Prevent submenu items from wrapping */
-  background: white; /* Change background color as needed */
-  border: 1px solid #ccc; /* Add a border if desired */
-  z-index: 1000; /* Ensure submenu appears above other elements */
-}
+  .menu-item:hover .submenu {
+    display: block;
+    margin-top: 0;
+  }
 
-.menu-item:hover .submenu {
-  display: block;
-}
-
-.submenu a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.submenu a:hover {
-  background-color: #f1f1f1;
+  .submenu a {
+    padding: 8px 16px; /* Adjust padding for better fit on mobile */
+  }
 }
