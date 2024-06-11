@@ -6,7 +6,6 @@
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
-
 @media (max-width: $container-width) {
   .site-header {
     min-height: 56px;
@@ -17,11 +16,9 @@
     z-index: 100;
   }
 }
-
 .site-header a {
-  text-decoration: none; /* Bỏ dấu gạch chân */
+  text-decoration: none;
 }
-
 .site-title {
   font-size: 26px;
   font-weight: 400;
@@ -31,19 +28,12 @@
   padding-left: 10px;
   float: left;
 }
-
 .menu-list {
   line-height: $header-thickness;
   float: right;
 }
-
 .menu-link {
   padding: 5px 10px;
-  text-decoration: none; /* Bỏ dấu gạch chân */
-}
-
-.menu-link:hover {
-  text-decoration: underline; /* Thêm dấu gạch chân khi hover */
 }
 
 /*
@@ -58,7 +48,6 @@
     display: none;
   }
 }
-
 @media (max-width: $container-width) {
   .menu-list {
     display: none;
