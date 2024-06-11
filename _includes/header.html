@@ -4,16 +4,7 @@
   </h3>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
-      <div class="menu-item">
-        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
-        {% if item.submenu %}
-          <div class="dropdown-content">
-            {% for subitem in item.submenu %}
-              <a href="{{ site.github.url }}/{{ subitem.url }}">{{ subitem.name }}</a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
+      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
     {% endfor %}
     {% for item in site.data.settings.social %}
       <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
@@ -24,13 +15,6 @@
     <div class="dropdown-content">
       {% for item in site.data.settings.menu %}
         <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
-        {% if item.submenu %}
-          <div class="dropdown-submenu">
-            {% for subitem in item.submenu %}
-              <a href="{{ site.github.url }}/{{ subitem.url }}">{{ subitem.name }}</a>
-            {% endfor %}
-          </div>
-        {% endif %}
       {% endfor %}
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
