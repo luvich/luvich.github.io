@@ -1,10 +1,9 @@
 <nav class="breadcrumbs">
   <a href="{{ site.github.url }}/">Home</a>
-  {% if page.parent_category %}
-    > <a href="{{ site.github.url }}/{{ page.parent_category | downcase }}">{{ page.parent_category }}</a>
-  {% endif %}
-  {% if page.category %}
-    > <a href="{{ site.github.url }}/{{ page.category | downcase }}">{{ page.category }}</a>
+  {% if page.breadcrumb %}
+    {% for crumb in page.breadcrumb %}
+      > <a href="{{ site.github.url }}{{ crumb.url }}">{{ crumb.title }}</a>
+    {% endfor %}
   {% endif %}
   > {{ page.title }}
 </nav>
