@@ -21,12 +21,12 @@ Lực là một đại lượng véc-tơ được biểu diễn bằng một mũ
 – Độ dài biểu diễn cường độ của lực theo một tỉ lệ xích cho trước.<br>
 
 
-> <div style="font-size: 16px; color: inherit;">
+<q> <div style="font-size: 16px; color: inherit;">
   Lực là một đại lượng vecto được biểu diễn bằng một mũi tên có:<br>
   – Gốc là điểm đặt của lực. <br>
   – Phương và chiều là phương và chiều của lực. <br>
   – Độ dài biểu diễn cường độ của lực theo một tỉ lệ xích cho trước. <br>
-</div>
+</div></q>
 
 Định nghĩa chính thức về vector ở lớp 10:<br>
 Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu A, điểm cuối B được kí hiệu là $ \overrightarrow{AB} &fg=000000$ và đọc là "véc-tơ $AB$".
