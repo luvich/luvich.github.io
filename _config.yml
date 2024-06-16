@@ -13,6 +13,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+usemathjax : true
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title: "Luvich's Blog"
 description: "Khoa học qua lăng kính thiểu năng"
