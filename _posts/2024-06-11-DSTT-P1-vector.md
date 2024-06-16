@@ -29,4 +29,4 @@ Lực là một đại lượng véc-tơ được biểu diễn bằng một mũ
 </span></blockquote>
 
 Định nghĩa chính thức về vector ở lớp 10:<br>
-Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu A, điểm cuối B được kí hiệu là $ \overrightarrow{AB} &fg=000000$ và đọc là "véc-tơ $AB$".
+Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu A, điểm cuối B được kí hiệu là $ \overrightarrow{AB}$ và đọc là "véc-tơ $AB$".
