@@ -22,10 +22,10 @@ Lực là một đại lượng véc-tơ được biểu diễn bằng một mũ
 ---
 
 <div style="font-size: 16px; color: inherit;">
-  Lực là một đại lượng vecto được biểu diễn bằng một mũi tên có: 
-  – Gốc là điểm đặt của lực. 
-  – Phương và chiều là phương và chiều của lực. 
-  – Độ dài biểu diễn cường độ của lực theo một tỉ lệ xích cho trước.
+  Lực là một đại lượng vecto được biểu diễn bằng một mũi tên có:<br>
+  – Gốc là điểm đặt của lực. <br>
+  – Phương và chiều là phương và chiều của lực. <br>
+  – Độ dài biểu diễn cường độ của lực theo một tỉ lệ xích cho trước. <br>
 </div>
 
 Định nghĩa chính thức về vector ở lớp 10:<br>
