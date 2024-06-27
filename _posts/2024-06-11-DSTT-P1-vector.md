@@ -32,7 +32,7 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
 - Phép cộng giữa các vector: đảm bảo sự tương tác trong nội bộ không gian;
 - Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian.
-Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <span style="color:blue">[đây](https://en.wikipedia.org/wiki/Vector_space)</span>).
+Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <span style="color:blue">[đây](https://en.wikipedia.org/wiki/Vector_space)</span> <a href="https://en.wikipedia.org/wiki/Vector_space" style="color: blue;">đây</a>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
 <ol type="a">
@@ -40,7 +40,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
     Không gian các số thực trên trường $\mathbb{Q}$ là một không gian vector, trong đó
     <ul>
       <li>Phép cộng: cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
-      <li>Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$</li>
+      <li>Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
     </ul>
     Trong không gian này, mỗi số thực là một vector.
   </li>
