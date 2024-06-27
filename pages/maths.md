@@ -1,9 +1,9 @@
 ---
 layout: category
-title: "Mathematics"
+title: "Toán học"
 category: "maths"
 permalink: /maths/
 breadcrumb:
-  - title: "Mathematics"
+  - title: "Toán học"
     url: "/maths"
 ---
