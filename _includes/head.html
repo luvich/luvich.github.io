@@ -6,6 +6,41 @@
       {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+  <!-- Feeds -->
+  {% feed_meta %}
+  <!-- Uncomment below for RSS Feed -->
+  <!-- <link href="{{ '/rss-feed.xml' | prepend: site.baseurl }}" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/> -->
+
+  <!-- MathJax Configuration -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <!-- Google Analytics -->
+  {% include google-analytics.html %}
+  
+  <!-- SEO Tags -->
+  {% seo %}
+</head>
+
+
+
+
+<!-- <head>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} | {{ site.description }}
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
@@ -24,4 +59,4 @@
   {% include google-analytics.html %}
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
-</head>
+</head> -->
