@@ -67,3 +67,6 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
 # 2. Lăng kính hình học
 Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc,vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
   - Phép cộng giữa các vector $\longleftrightarrow$ phép tịnh tiến. Cụ thể, $\vec{a}+\vec{b}$ được hình thành bằng cách tịnh tiến vector $\vec{a}$ theo vector $\vec{b}$.
+  - Phép nhân
+
+<img src="2024-06-11-operation-vector.jpg" alt="Operations of vectors">
