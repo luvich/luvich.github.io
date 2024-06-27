@@ -70,3 +70,5 @@ Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình du
   - Phép nhân
 
 ![alt text](https://media5.datahacker.rs/2020/03/Picture38-1024x473.jpg "Phép cộng và phép nhân với vô hướng")
+<img src="https://media5.datahacker.rs/2020/03/Picture38-1024x473.jpg" alt="Phép cộng và phép nhân với vô hướng" style="width:100%;">
+
