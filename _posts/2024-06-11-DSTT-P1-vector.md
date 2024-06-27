@@ -37,7 +37,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
 <ol type="a">
   <li>
-    Không gian các số thực trên trường $\mathbb{Q}$ là một không gian vector, trong đó
+    Không gian các số thực $\mathbb{R}$ trên trường $\mathbb{Q}$ là một không gian vector, trong đó
     <ul>
       <li>Phép cộng: cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
       <li>Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
@@ -45,7 +45,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
     Trong không gian này, mỗi số thực là một vector.
   </li>
   <li>
-    "Không gian" (xin phép lạm dụng từ không gian) các số hữu tỷ trên trường $\mathbb{R}$ <b>không</b> là một không gian vector, vì phép nhân một số hữu tỷ bởi một số thực đã "ra ngoài không gian", nếu $\lambda \in \mathbb{R}$ và $q\in \mathbb{Q}$ thì $\lambda q$ có thể không còn là số thực nữa. Vậy nên các số hữu tỷ cùng với phép toán này không thể cấu thành một không gian vector.
+    "Không gian" (xin phép lạm dụng từ không gian) các số hữu tỷ $\mathbb{Q}$ trên trường $\mathbb{R}$ <b>không</b> là một không gian vector, vì phép nhân một số hữu tỷ bởi một số thực đã "ra ngoài không gian", nếu $\lambda \in \mathbb{R}$ và $q\in \mathbb{Q}$ thì $\lambda q$ có thể không còn là số hữu tỷ nữa. Vậy nên các số hữu tỷ cùng với phép toán này không thể cấu thành một không gian vector.
   </li>
   <li>
     Cho tập hợp $V=\left\lbrace \mathrm{Luvich} \right\rbrace$. Định nghĩa phép toán như sau:
