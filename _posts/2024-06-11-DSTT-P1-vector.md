@@ -60,15 +60,6 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
   </li>
 </ol>
 
-- "Không gian" (xin phép lạm dụng từ không gian) các số hữu tỷ trên trường $\mathbb{R}$ <b>không</b> là một không gian vector, vì phép nhân một số hữu tỷ bởi một số thực đã "ra ngoài không gian", nếu $\lambda \in \mathbb{R}$ và $q\in \mathbb{Q}$ thì $\lambda q$ có thể không còn là số thực nữa. Vậy nên các số hữu tỷ cùng với phép toán này không thể cấu thành một không gian vector.
-- Cho tập hợp $V=\left\lbrace \mathrm{Luvich} \right\rbrace$. Định nghĩa phép toán như sau:
-  - Phép cộng: $\mathrm{Luvich} + \mathrm{Luvich}=\mathrm{Luvich}$, chỉ có một phần tử thôi, và quy định nó cộng chính nó bằng chính nó;
-  - Phép nhân với vô hướng: với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.
-    Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
-
-Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
-> <span style="color:black"> Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
-</span>
 
 
 
