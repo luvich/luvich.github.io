@@ -10,7 +10,7 @@ image: vector_cover.svg.png
 ---
 
 Chúng ta gặp khái niệm vector khá nhiều, đặc biệt đối với những ngành khoa học tự nhiên thì càng chẳng xa lạ gì. Một vector sẽ thế nào nếu nó đi qua một lăng kính thiểu năng (LKTN)?<br>
-> <span style="color:black">Bài viết repost từ </span> [blog wordpress](https://hoathekiet.wordpress.com/2023/12/16/chdeptrai-nhin-dai-so-tuyen-tinh-p1-khai-niem-vec-to/ 'blog wordpress') 
+> <span style="color:black">Bài viết repost từ </span> <span style="color:blue">[blog wordpress](https://hoathekiet.wordpress.com/2023/12/16/chdeptrai-nhin-dai-so-tuyen-tinh-p1-khai-niem-vec-to/ 'blog wordpress') </span>
 
 **Lực** (force) là một đại lượng vector. Điều này đã được nghe từ khi mới tiếp xúc với vật lý. Đương nhiên với tầm đó thì bỏ qua khái niệm mà chỉ thuộc lòng các đặt trưng của nó:<br>
 
@@ -32,7 +32,7 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
 - Phép cộng giữa các vector: đảm bảo sự tương tác trong nội bộ không gian;
 - Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian.
-Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở [đây](https://en.wikipedia.org/wiki/Vector_space)).
+Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <span style="color:blue">[đây](https://en.wikipedia.org/wiki/Vector_space)</span>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
 - Không gian các số thực trên trường $\mathbb{Q}$ là một không gian vector, trong đó
@@ -45,7 +45,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
   - Phép nhân với vô hướng: với mọi $\lambda \in mathbb{K}$, $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.
     Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
 
-Ở trên là nguỵ biện trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
+Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
 <blockquote> <span style="color:black">
 Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
 </span></blockquote> 
