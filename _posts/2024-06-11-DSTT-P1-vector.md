@@ -58,7 +58,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
 > <span style="color:black"> Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
 </span>
     <blockquote>
-        <p><strong>Note:</strong> Không có không gian vector nào chứa <em>hữu hạn</em> phần tử ngoài không gian chỉ chứa vectơ $0$!</p>
+        <p><strong>Note:</strong> <span style="color:black"> Không có không gian vector nào chứa <em>hữu hạn</em> phần tử ngoài không gian chỉ chứa vectơ $0$!</span></p>
     </blockquote>
   </li>
 </ol>
