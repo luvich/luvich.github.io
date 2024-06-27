@@ -35,6 +35,18 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <span style="color:blue">[đây](https://en.wikipedia.org/wiki/Vector_space)</span>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
+<ol type="a">
+  <li>
+    Không gian các số thực trên trường $\mathbb{Q}$ là một không gian vector, trong đó
+    <ul>
+      <li>Phép cộng: cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
+      <li>Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$</li>
+    </ul>
+    Trong không gian này, mỗi số thực là một vector.
+  </li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ol>
 - Không gian các số thực trên trường $\mathbb{Q}$ là một không gian vector, trong đó
   - Phép cộng: cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;
   - Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$
@@ -49,11 +61,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
 > <span style="color:black"> Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
 </span>
 
-<ol type="a">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-</ol>
+
 
 # 2. Lăng kính hình học
 Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn, ta thêm vào không gian một điểm 
