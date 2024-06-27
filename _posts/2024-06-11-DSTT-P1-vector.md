@@ -55,7 +55,6 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
     </ul>
     Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
     Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
-> <span style="color:black"> Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
 </span>
     <blockquote>
         <p><span style="color:black"><strong>Note:</strong> Không có không gian vector nào chứa <em>hữu hạn</em> phần tử ngoài không gian chỉ chứa vectơ $0$!</span></p>
