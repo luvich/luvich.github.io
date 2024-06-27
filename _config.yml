@@ -23,8 +23,8 @@ plugins:
 usemathjax : true
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: "Luvich's Blog"
-description: "Lăng Kính Thiểu Năng"
+title: "Lăng Kính Thiểu Năng"
+description: "Khoa học dưới góc nhìn thiểu năng"
 author: "Luvich"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
