@@ -5,6 +5,13 @@ paginate: 5
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+
+# Your other configurations
+
 highlighter: rouge
 permalink: /:title
 plugins:
