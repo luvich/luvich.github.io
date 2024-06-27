@@ -57,6 +57,9 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
     Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
 > <span style="color:black"> Không có không gian vector nào chứa *hữu hạn* phần tử ngoài không gian chỉ chứa vectơ $0$!
 </span>
+    <blockquote>
+        <p><strong>Note:</strong> Không có không gian vector nào chứa <em>hữu hạn</em> phần tử ngoài không gian chỉ chứa vectơ $0$!</p>
+    </blockquote>
   </li>
 </ol>
 
