@@ -69,4 +69,4 @@ Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình du
   - Phép cộng giữa các vector $\longleftrightarrow$ phép tịnh tiến. Cụ thể, $\vec{a}+\vec{b}$ được hình thành bằng cách tịnh tiến vector $\vec{a}$ theo vector $\vec{b}$.
   - Phép nhân
 
-<img src="2024-06-11-operation-vector.jpg" alt="Operations of vectors">
+<img src="assets/img/2024-06-11-operation-vector.jpg" alt="Operations of vectors">
