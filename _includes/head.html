@@ -15,22 +15,24 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   
-  <!-- Feeds -->
   {% feed_meta %}
-  <!-- Uncomment below for RSS Feed -->
-  <!-- <link href="{{ '/rss-feed.xml' | prepend: site.baseurl }}" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/> -->
-
+  
   <!-- MathJax Configuration -->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$', '$'], ['\(', '\)']],
+      displayMath: [['$$', '$$'], ['\[', '\]']], 
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+  </script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
+  
   <!-- Google Analytics -->
   {% include google-analytics.html %}
   
-  <!-- SEO Tags -->
+  <!-- Jekyll SEO plugin -->
   {% seo %}
 </head>
-
-
-
-
-
