@@ -54,8 +54,7 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
       <li>Phép nhân với vô hướng: với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.</li>
     </ul>
     Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
-    Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là 
-</span>
+    Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là
     <blockquote>
         <p><span style="color:black"><strong>Note:</strong> Không có không gian vector nào chứa <em>hữu hạn</em> phần tử ngoài không gian chỉ chứa vectơ $0$!</span></p>
     </blockquote>
