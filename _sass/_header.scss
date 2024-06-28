@@ -8,7 +8,7 @@
 .site-title {
   font-size: 2em;
   margin: 0;
-  text-decoration: none; /* Bỏ gạch chân */
+  text-decoration: none;
 }
 
 .menu-list {
@@ -23,13 +23,13 @@
 
 .menu-link {
   padding: 10px 20px;
-  text-decoration: none; /* Bỏ gạch chân */
+  text-decoration: none;
   color: black;
 }
 
 .menu-link:hover {
-  text-decoration: none; /* Bỏ gạch chân khi hover */
-  color: #007acc; /* Thay đổi màu khi hover nếu cần */
+  text-decoration: none;
+  color: #007acc;
 }
 
 .dropdown-content {
@@ -41,8 +41,8 @@
   flex-direction: column;
 }
 
-.dropdown:hover .dropdown-content {
-  display: flex; /* Hiển thị sub-menu theo kiểu xuống hàng */
+.dropdown:hover > .dropdown-content {
+  display: flex;
 }
 
 .dropdown-content .dropdown {
@@ -55,8 +55,12 @@
   margin-left: 1px;
 }
 
+.dropdown-content .dropdown:hover > .dropdown-content {
+  display: flex;
+}
+
 .mobile-menu-icon {
-  display: none; /* Ẩn biểu tượng mobile menu trên desktop */
+  display: none;
 }
 
 .mobile-menu {
