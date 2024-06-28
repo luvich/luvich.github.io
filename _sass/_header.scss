@@ -44,6 +44,16 @@
   display: flex; /* Hiển thị sub-menu theo kiểu xuống hàng */
 }
 
+.dropdown-content .dropdown {
+  position: relative;
+}
+
+.dropdown-content .dropdown .dropdown-content {
+  top: 0;
+  left: 100%;
+  margin-left: 1px;
+}
+
 .mobile-menu-icon {
   display: none; /* Ẩn biểu tượng mobile menu trên desktop */
 }
