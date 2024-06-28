@@ -22,7 +22,7 @@
 
 .menu-link {
   padding: 10px 20px;
-  text-decoration: none;
+  text-decoration: none; /* Bỏ gạch chân */
   color: black;
 }
 
@@ -31,15 +31,17 @@
   color: #007acc; /* Thay đổi màu khi hover nếu cần */
 }
 
-.dropdown-content, .dropdown-subcontent {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
 }
 
-.dropdown:hover .dropdown-content, .dropdown-content:hover .dropdown-subcontent {
-  display: block;
+.dropdown:hover .dropdown-content {
+  display: flex; /* Hiển thị sub-menu theo kiểu xuống hàng */
 }
 
 .mobile-menu-icon {
