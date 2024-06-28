@@ -1,4 +1,7 @@
 <header class="site-header">
+  <h1 class="site-title">
+    <a href="{{ site.github.url }}/">{{ site.title }}</a>
+  </h1>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
       {% include menu.html item=item %}
@@ -14,6 +17,3 @@
     {% endfor %}
   </div>
 </header>
-<h3 class="site-title">
-  <a href="{{ site.github.url }}/">{{ site.title }}</a>
-</h3>
