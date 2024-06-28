@@ -11,4 +11,5 @@ breadcrumb:
   - title: "Linear Algebra"
     url: "/maths/algebra/linear-algebra/"
 permalink: /maths/algebra/linear-algebra/
+img: vector_cover.svg.png
 ---
