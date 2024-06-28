@@ -36,11 +36,11 @@ menu:
         url: '/maths/geometry/unsupervised-ml'
       - name: 'Reinforcement Learning'
         url: '/maths/geometry/reinforcement-learning'
-  - name: 'Toán sơ cấp'
-    url: '/elementary'
+  - name: 'Language'
+    url: '/language'
   - name: 'Luvich'
     url: '/about'
-  - name: 'Liên hệ'
+  - name: 'Contact'
     url: '/contact'
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
