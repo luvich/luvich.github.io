@@ -120,3 +120,15 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
+/* Custom styles for navigation */
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-link:hover {
+  text-decoration: none; /* Bỏ gạch chân khi hover */
+  color: #007acc; /* Thay đổi màu khi hover nếu cần */
+}
