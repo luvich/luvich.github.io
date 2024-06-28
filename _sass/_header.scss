@@ -31,6 +31,10 @@
   text-decoration: none;
 }
 
+.menu-link:hover {
+  text-decoration: none; /* Loại bỏ gạch dưới khi hover */
+}
+
 .dropbtn {
   background-color: white;
   color: black;
@@ -55,9 +59,18 @@
   z-index: 1000;
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .dropdown-content .dropdown-content {
   left: 100%;
   top: 0;
+  display: none; /* Ẩn subsubmenu */
+}
+
+.dropdown-content .dropdown:hover .dropdown-content {
+  display: block; /* Hiện subsubmenu khi hover */
 }
 
 .dropdown-content a {
@@ -69,10 +82,6 @@
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .dropdown:hover .dropbtn {
