@@ -90,11 +90,11 @@ dd {
 
 a {
   color: $brand-color;
-  text-decoration: none;
+  text-decoration: none; /* Bỏ gạch chân */
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none; /* Bỏ gạch chân khi hover */
 }
 
 /*
