@@ -1,13 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function() {
   const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
   const mobileMenu = document.querySelector('.mobile-menu');
-  const closeMobileMenuButton = document.querySelector('.close-mobile-menu');
+  const closeMobileMenu = document.querySelector('.close-mobile-menu');
 
   mobileMenuIcon.addEventListener('click', function() {
-    mobileMenu.style.display = 'block';
+    mobileMenu.classList.toggle('show');
   });
 
-  closeMobileMenuButton.addEventListener('click', function() {
-    mobileMenu.style.display = 'none';
+  closeMobileMenu.addEventListener('click', function() {
+    mobileMenu.classList.remove('show');
   });
 });
