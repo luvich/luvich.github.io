@@ -26,6 +26,11 @@
   color: black;
 }
 
+.menu-link:hover {
+  text-decoration: none; /* Bỏ gạch chân khi hover */
+  color: #007acc; /* Thay đổi màu khi hover nếu cần */
+}
+
 .dropdown-content, .dropdown-subcontent {
   display: none;
   position: absolute;
