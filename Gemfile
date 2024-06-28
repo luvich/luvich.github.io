@@ -1,4 +1,3 @@
-
 source "https://rubygems.org"
 
 # Jekyll và các plugin liên quan
