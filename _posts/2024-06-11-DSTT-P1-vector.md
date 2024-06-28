@@ -82,5 +82,6 @@ Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng
 Khi nói về một thứ gì đó trừu tượng, ta thường tìm cách biểu diễn chúng dưới những hình thức khác. Số hoá là một cách. Đầu tiên xét các không gian hữu hạn chiều. Qua lăng kính này:
   - Cơ sở của không gian vector $\longleftrightarrow$ tập hợp những chiếc camera;
   - Hệ trục toạ độ $\longleftrightarrow$ vị trí đặt những chiếc camera đó;
-Lúc này ta nhìn vào một không gian vector thông qua một "màn hình" mà ở đó 
+
+Lúc này ta nhìn vào một không gian vector thông qua một "màn hình" mà ở đó hình ảnh xuất hiện chính là thứ ta gọi là <b>**toạ độ của vector**</b>.
 
