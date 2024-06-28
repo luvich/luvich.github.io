@@ -11,7 +11,6 @@ kramdown:
   math_engine: mathjax
 
 # Your other configurations
-
 highlighter: rouge
 permalink: /:title
 plugins:
@@ -19,8 +18,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-mathjax
 
-usemathjax : true
+usemathjax: true
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title: "Lăng Kính Thiểu Năng"
@@ -42,3 +42,4 @@ defaults:
     values:
       layout: "post"
       categories: ["maths", "algebra"]
+
