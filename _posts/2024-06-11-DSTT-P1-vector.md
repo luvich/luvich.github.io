@@ -30,8 +30,9 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 
 # 1. Lăng kính đại số
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
-- Phép cộng giữa các vector: đảm bảo sự tương tác trong nội bộ không gian;
-- Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian.
+- Phép cộng giữa các vector: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
+- Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
+- 
 Lúc này không gian được gọi là <b>**không gian vector**</b> trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <a href="https://en.wikipedia.org/wiki/Vector_space" style="color: blue;">đây</a>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
@@ -71,7 +72,15 @@ Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình du
   - Phép nhân với vô hướng $\longleftrightarrow$ phép vị tự.<br>
   Tỉ số vị tự chính là độ lớn của vô hướng.
 
-Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng</b> và <b>độ dài</b>.
+Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng</b> và <b>độ dài</b>. Thấy rằng lực hay chương trình phổ thông nhìn vector qua lăng kính hình học. Đặc trưng này rất quan trọng, nó sẽ liên quan đến spans hay eigenspaces.
 
 <img src="https://media5.datahacker.rs/2020/03/Picture38-1024x473.jpg" alt="Phép cộng và phép nhân với vô hướng" style="width:100%;">
+
+
+
+# 3. Lăng kính kỹ thuật
+Khi nói về một thứ gì đó trừu tượng, ta thường tìm cách biểu diễn chúng dưới những hình thức khác. Số hoá là một cách. Đầu tiên xét các không gian hữu hạn chiều. Qua lăng kính này:
+  - Cơ sở của không gian vector $\longleftrightarrow$ tập hợp những chiếc camera;
+  - Hệ trục toạ độ $\longleftrightarrow$ vị trí đặt những chiếc camera đó;
+Lúc này ta nhìn vào một không gian vector thông qua một "màn hình" mà ở đó 
 
