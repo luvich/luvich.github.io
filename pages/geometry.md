@@ -1,12 +1,12 @@
 ---
 layout: category
-title: "Hình học"
+title: "Geometry"
 category: "geometry"
 parent_category: "maths"
 breadcrumb:
-  - title: "Toán học"
+  - title: "Mathematics"
     url: "/maths"
-  - title: "Hình học"
+  - title: "Geometry"
     url: "/maths/geometry/"
 permalink: /maths/geometry/
 ---
