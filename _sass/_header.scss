@@ -35,6 +35,8 @@
 .menu-list {
   line-height: $header-thickness;
   float: left; /* Chuyển từ right sang left */
+  display: flex; /* Để menu nằm ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
 }
 
 .menu-link {
