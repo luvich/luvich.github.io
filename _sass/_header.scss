@@ -41,17 +41,56 @@
 
 .menu-link {
   padding: 5px 10px;
+  white-space: nowrap;
 }
 
-/*
-  Responsiveness with a dropdown menu
-*/
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content,
+.dropdown-content-submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a,
+.dropdown-content-submenu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover,
+.dropdown-content-submenu a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu:hover .dropdown-content-submenu {
+  display: block;
+  left: 100%;
+  top: 0;
+}
 
 @media (min-width: $container-width) {
   .dropbtn {
     display: none;
   }
-  .dropdown-content {
+  .dropdown-content,
+  .dropdown-content-submenu {
     display: none;
   }
 }
@@ -76,38 +115,31 @@
     position: relative;
     display: inline-block;
   }
-  .dropdown-content {
+  .dropdown-content,
+  .dropdown-content-submenu {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
-  .dropdown-content a {
+  .dropdown-content a,
+  .dropdown-content-submenu a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {
+  .dropdown-content a:hover,
+  .dropdown-content-submenu a:hover {
     background-color: #f1f1f1;
   }
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content,
+  .dropdown-submenu:hover .dropdown-content-submenu {
     display: block;
   }
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
-}
-
-.dropdown-submenu .dropdown-content-submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
-
-.dropdown-submenu:hover .dropdown-content-submenu {
-  display: block;
 }
