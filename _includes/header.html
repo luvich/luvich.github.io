@@ -7,4 +7,13 @@
       {% include menu.html item=item %}
     {% endfor %}
   </nav>
+  <div class="mobile-menu-icon">
+    <span>&#9776;</span> <!-- Biểu tượng hamburger -->
+  </div>
+  <div class="mobile-menu">
+    <button class="close-mobile-menu">&times;</button>
+    {% for item in site.data.settings.menu %}
+      {% include mobile-menu.html item=item %}
+    {% endfor %}
+  </div>
 </header>
