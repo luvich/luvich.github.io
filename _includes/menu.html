@@ -1,19 +1,12 @@
 {% if include.item.submenu %}
 <div class="dropdown">
-  <a href="{{ site.github.url }}/{{ include.item.url }}" class="menu-link dropbtn">{{ include.item.name }}</a>
+  <a href="{{ site.github.url }}{{ include.item.url }}" class="menu-link dropbtn">{{ include.item.name }}</a>
   <div class="dropdown-content">
     {% for sub in include.item.submenu %}
-      <a href="{{ site.github.url }}/{{ sub.url }}">{{ sub.name }}</a>
-      {% if sub.submenu %}
-      <div class="dropdown-subcontent">
-        {% for subsub in sub.submenu %}
-        <a href="{{ site.github.url }}/{{ subsub.url }}">{{ subsub.name }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
+      <a href="{{ site.github.url }}{{ sub.url }}" class="menu-link">{{ sub.name }}</a>
     {% endfor %}
   </div>
 </div>
 {% else %}
-<a href="{{ site.github.url }}/{{ include.item.url }}" class="menu-link">{{ include.item.name }}</a>
+<a href="{{ site.github.url }}{{ include.item.url }}" class="menu-link">{{ include.item.name }}</a>
 {% endif %}
