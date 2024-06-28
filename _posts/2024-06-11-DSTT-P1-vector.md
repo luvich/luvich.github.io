@@ -80,6 +80,29 @@ Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng
 
 # 3. Lăng kính kỹ thuật
 Khi nói về một thứ gì đó trừu tượng, ta thường tìm cách biểu diễn chúng dưới những hình thức khác. Số hoá là một cách. Đầu tiên xét các không gian hữu hạn chiều. Qua lăng kính này:
+<table border="1"> <!-- Thêm border để dễ quan sát các ô trong bảng -->
+  <tr>
+    <th>Không gian vector</th>
+    <th> </th>
+    <th>Màn hình</th>
+  </tr>
+  <tr>
+    <td>Cơ sở</td> 
+    <td>$\longleftrightarrow$</td> 
+    <td>Các camera</td>
+  </tr>
+  <tr>
+    <td>Hệ trục toạ độ</td>
+    <td>$\longleftrightarrow$</td>
+    <td>Vị trí sắp xếp các camera</td>
+  </tr>
+  <tr>
+    <td>Toạ độ của vector</td>
+    <td>$\longleftrightarrow$</td>
+    <td>Hình ảnh xuất hiện trên màn hình</td>
+  </tr>
+</table>
+
   - Cơ sở của không gian vector $\longleftrightarrow$ tập hợp những chiếc camera;
   - Hệ trục toạ độ $\longleftrightarrow$ vị trí đặt những chiếc camera đó;
 
