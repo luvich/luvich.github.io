@@ -1,9 +1,16 @@
 {% if include.item.submenu %}
-  <div class="mobile-dropdown">
+  <div class="dropdown">
     <a href="{{ site.github.url }}{{ include.item.url }}" class="menu-link">{{ include.item.name }}</a>
-    <div class="mobile-dropdown-content">
+    <div class="dropdown-content">
       {% for sub in include.item.submenu %}
-        {% include mobile-menu.html item=sub %}
+        <a href="{{ site.github.url }}{{ sub.url }}" class="menu-link">{{ sub.name }}</a>
+        {% if sub.submenu %}
+          <div class="dropdown-content-submenu">
+            {% for subsub in sub.submenu %}
+              <a href="{{ site.github.url }}{{ subsub.url }}" class="menu-link">{{ subsub.name }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
