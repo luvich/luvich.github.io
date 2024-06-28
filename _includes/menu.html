@@ -1,9 +1,20 @@
 {% if include.item.submenu %}
   <div class="dropdown">
-    <a href="{{ site.github.url }}{{ include.item.url }}" class="menu-link">{{ include.item.name }}</a>
+    <a href="{{ site.github.url }}{{ include.item.url }}" class="menu-link dropbtn">{{ include.item.name }}</a>
     <div class="dropdown-content">
       {% for sub in include.item.submenu %}
-        {% include menu.html item=sub %}
+        {% if sub.submenu %}
+          <div class="dropdown-submenu">
+            <a href="{{ site.github.url }}{{ sub.url }}" class="menu-link dropbtn">{{ sub.name }}</a>
+            <div class="dropdown-content-submenu">
+              {% for subsub in sub.submenu %}
+                <a href="{{ site.github.url }}{{ subsub.url }}" class="menu-link">{{ subsub.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <a href="{{ site.github.url }}{{ sub.url }}" class="menu-link">{{ sub.name }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
