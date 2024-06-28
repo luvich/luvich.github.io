@@ -32,7 +32,7 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
 - Phép cộng giữa các vector: đảm bảo sự tương tác trong nội bộ không gian;
 - Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian.
-Lúc này không gian được gọi là **không gian vector** trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <a href="https://en.wikipedia.org/wiki/Vector_space" style="color: blue;">đây</a>).
+Lúc này không gian được gọi là <b>**không gian vector**</b> trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <a href="https://en.wikipedia.org/wiki/Vector_space" style="color: blue;">đây</a>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
 <ol type="a">
@@ -66,8 +66,12 @@ Lúc này không gian được gọi là **không gian vector** trên trường 
 
 # 2. Lăng kính hình học
 Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc,vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
-  - Phép cộng giữa các vector $\longleftrightarrow$ phép tịnh tiến. Cụ thể, $\vec{a}+\vec{b}$ được hình thành bằng cách tịnh tiến vector $\vec{a}$ theo vector $\vec{b}$.
-  - Phép nhân
+  - Phép cộng giữa các vector $\longleftrightarrow$ phép tịnh tiến.<br>
+  Cụ thể, kết quả của phép cộng $\vec{v}+\vec{w}$ việc tịnh tiến vector $\vec{v}$ theo vector $\vec{w}$.
+  - Phép nhân với vô hướng $\longleftrightarrow$ phép vị tự.<br>
+  Tỉ số vị tự chính là độ lớn của vô hướng.
+
+Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng</b> và <b>độ dài</b>.
 
 <img src="https://media5.datahacker.rs/2020/03/Picture38-1024x473.jpg" alt="Phép cộng và phép nhân với vô hướng" style="width:100%;">
 
