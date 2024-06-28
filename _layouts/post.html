@@ -17,6 +17,13 @@ layout: default
   <article>
     {{ content }}
   </article>
+  <script src="https://utteranc.es/client.js"
+        repo="luvich/luvich.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}
