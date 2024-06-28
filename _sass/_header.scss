@@ -28,7 +28,7 @@
 
 .menu-link {
   padding: 5px 10px;
-  text-decoration: none;
+  text-decoration: none; /* Loại bỏ gạch dưới */
 }
 
 .menu-link:hover {
@@ -63,14 +63,18 @@
   display: block;
 }
 
+.dropdown-content .dropdown {
+  position: relative;
+}
+
 .dropdown-content .dropdown-content {
+  display: none;
   left: 100%;
   top: 0;
-  display: none; /* Ẩn subsubmenu */
 }
 
 .dropdown-content .dropdown:hover .dropdown-content {
-  display: block; /* Hiện subsubmenu khi hover */
+  display: block;
 }
 
 .dropdown-content a {
