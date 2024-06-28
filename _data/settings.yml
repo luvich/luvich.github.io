@@ -9,25 +9,25 @@ google-ID: ''
 
 menu:
   - name: 'Toán học'
-    url: 'maths'
+    url: '/maths'
     submenu:
       - name: 'Đại số'
-        url: 'maths/algebra'
+        url: '/maths/algebra'
         submenu:
           - name: 'Đại số tuyến tính'
-            url: 'linear-algebra'
+            url: '/linear-algebra'
           - name: 'Đại số trừu tượng'
-            url: 'abstract-algebra'
+            url: '/abstract-algebra'
       - name: 'Hình học'
-        url: 'geometry'
+        url: '/geometry'
   - name: 'Machine Learning'
-    url: 'machine-learning'
+    url: '/machine-learning'
   - name: 'Toán sơ cấp'
-    url: 'elementary'
+    url: '/elementary'
   - name: 'Luvich'
-    url: 'about'
+    url: '/about'
   - name: 'Liên hệ'
-    url: 'contact'
+    url: '/contact'
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
