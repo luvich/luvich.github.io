@@ -38,10 +38,14 @@ menu:
         url: '/maths/geometry/reinforcement-learning'
   - name: 'Language'
     url: '/language'
+    submenu:
+      - name: 'Python'
+        url: '/language/python'
   - name: 'Luvich'
     url: '/about'
-  - name: 'Contact'
-    url: '/contact'
+    submenu:
+    - name: 'Contact'
+      url: '/about/contact'
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
