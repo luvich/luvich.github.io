@@ -15,11 +15,16 @@ menu:
         url: '/maths/algebra'
         submenu:
           - name: 'Đại số tuyến tính'
-            url: '/linear-algebra'
+            url: '/maths/algebra/linear-algebra'
           - name: 'Đại số trừu tượng'
-            url: '/abstract-algebra'
+            url: '/maths/algebra/abstract-algebra'
       - name: 'Hình học'
         url: '/geometry'
+        submenu:
+          - name: 'Hình học đại số'
+            url: '/maths/geometry/algebraic-geometry'
+          - name: 'Hình học vi phân'
+            url: '/maths/geometry/differential-geometry'
   - name: 'Machine Learning'
     url: '/machine-learning'
   - name: 'Toán sơ cấp'
