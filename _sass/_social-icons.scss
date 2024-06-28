@@ -1,13 +1,26 @@
-@mixin social-media-icon($color, $transition){
-  -webkit-transition: $transition;
-  -o-transition: $transition;
-  -ms-transition: $transition;
-  -moz-transition: $transition;
-  transition: $transition;
-  &:hover{
+@mixin social-media-icon($color, $transition, $hover-effect: scale(1.1), $box-shadow: none) {
+  transition: $transition, transform 0.3s ease;
+  box-shadow: $box-shadow;
+  &:hover {
     color: $color;
+    transform: $hover-effect;
   }
 }
+
+// Định nghĩa màu và thời gian chuyển đổi
+$envelope-color: #dd4b39;
+$twitter-color: #1da1f2;
+$instagram-color: #e4405f;
+$github-color: #333;
+$linkedin-color: #0077b5;
+$facebook-color: #3b5998;
+$google-color: #dd4b39;
+$pinterest-color: #bd081c;
+$medium-color: #00ab6c;
+$codepen-color: #000000;
+$rss-color: #ff9900;
+
+$icon-transition-time: 0.3s;
 
 .fa-envelope {
   padding: 5px;
@@ -16,12 +29,12 @@
 
 .fa-twitter {
   padding: 5px;
-  @include social-media-icon($twitter-color, $icon-transition-time);
+  @include social-media-icon($twitter-color, $icon-transition-time, scale(1.1), 0px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .fa-instagram {
   padding: 5px;
-  @include social-media-icon($instagram-color, $icon-transition-time);
+  @include social-media-icon($instagram-color, $icon-transition-time, rotate(360deg));
 }
 
 .fa-github {
