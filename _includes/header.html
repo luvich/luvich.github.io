@@ -4,22 +4,7 @@
   </h3>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
-      {{ render_menu(item) }}
+      {% include menu.html item=item %}
     {% endfor %}
   </nav>
 </header>
-
-{% macro render_menu(item) %}
-  {% if item.submenu %}
-    <div class="dropdown">
-      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link dropbtn">{{ item.name }}</a>
-      <div class="dropdown-content">
-        {% for sub in item.submenu %}
-          {{ render_menu(sub) }}
-        {% endfor %}
-      </div>
-    </div>
-  {% else %}
-    <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
-  {% endif %}
-{% endmacro %}
