@@ -23,13 +23,13 @@ $$
 xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$.  Nếu $\left\lbrace \mathbf{v}_i \right\rbrace$ không độc lập tuyến tính thì ta nói nó <b>phụ thuộc tuyến tính</b> (*linearly dependent*).
 
 # Lăng kính đại số
-Qua lăng kính đại số, việc độc lập hay phụ thuộc của một hệ các vector trở thành tính duy nhất nghiệm của một hệ phương trình tuyến tính. Cụ thể, hệ các vector $\left\lbrace \mathbf{v}_ i = \left[v_{i1},\ldots,v_{im}\right]^\top \right\rbrace$ được gọi là độc lập tuyến tính nếu hệ $m$ phương trình tuyến tính thuần nhất $n$ ẩn $\lambda_1,\ldots, \lambda_n$ sau:
+Qua lăng kính đại số, việc độc lập hay phụ thuộc của một hệ các vector trở thành tính duy nhất nghiệm của một hệ phương trình tuyến tính. Cụ thể, hệ các vector $\left\lbrace \mathbf{v}_ i = \left[v_{1i},\ldots,v_{mi}\right]^\top \right\rbrace$ được gọi là độc lập tuyến tính nếu hệ $m$ phương trình tuyến tính thuần nhất $n$ ẩn $\lambda_1,\ldots, \lambda_n$ sau:
 
 $$
 \begin{align}
-v_{11} \lambda_1 + \cdots + v_{n1}\lambda_n &= 0\\
+v_{11} \lambda_1 + \cdots + v_{1n}\lambda_n &= 0\\
 \vdots\\
-v_{1m} \lambda_1 + \cdots + v_{nm}\lambda_n &= 0
+v_{m1} \lambda_1 + \cdots + v_{mn}\lambda_n &= 0
 \end{align}
 $$
 
