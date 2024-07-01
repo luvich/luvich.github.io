@@ -24,13 +24,13 @@ xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$.  Nếu $\left\lbrace \mathbf{
 
 # Lăng kính đại số
 Qua lăng kính đại số, việc độc lập hay phụ thuộc của một hệ các vector trở thành tính duy nhất nghiệm của một hệ phương trình tuyến tính. Cụ thể, hệ các vector $\left\lbrace \mathbf{v}_ i = \left[v_{i1},\ldots,v_{im}\right]^\top \right\rbrace$ được gọi là độc lập tuyến tính nếu hệ $m$ phương trình tuyến tính thuần nhất $n$ ẩn $\lambda_1,\ldots, \lambda_n$ sau:
-$$
+
 \begin{align*}
 v_{11} \lambda_1 + \cdots + v_{n1}\lambda_n &= 0\\
 \vdots\\
 v_{1m} \lambda_1 + \cdots + v_{nm}\lambda_n &= 0
 \end{align*}
-$$
+
 có duy nhất nghiệm $\lambda_1=\cdots=\lambda_n=0$. Ý rằng hệ trên chỉ có nghiệm tầm thường. 
 
 # Lăng kính hình học
