@@ -40,7 +40,7 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
 - Phép cộng giữa các vector: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
 - Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
-- 
+  
 Lúc này không gian được gọi là <b>**không gian vector**</b> trên trường $\mathbb{K}$ nào đó. (Định nghĩa chi tiết xem ở <a href="https://en.wikipedia.org/wiki/Vector_space" style="color: blue;">đây</a>).
 
 Ở đây ta sẽ lấy ví dụ cho dễ tưởng tượng.
