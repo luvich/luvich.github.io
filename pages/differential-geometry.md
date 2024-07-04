@@ -5,10 +5,10 @@ category: "differential-geometry"
 parent_category: "geometry"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Geometry"
-    url: "/maths/geometry/"
+    url: "/mathematics/geometry/"
   - title: "Differential Geometry"
-    url: "/maths/algebra/differential-geometry/"
-permalink: /maths/algebra/differential-geometry/
+    url: "/mathematics/algebra/differential-geometry/"
+permalink: /mathematics/algebra/differential-geometry/
 ---
