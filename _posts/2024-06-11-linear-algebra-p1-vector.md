@@ -8,13 +8,14 @@ categories:
   - Linear Algebra
 tags: [linear algebra, mathematics, đại số tuyến tính, vector]
 image: vector_cover.svg.png
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "icon"
 ---
 
 # Table of Contents
-- [1. Lăng kính đại số](#1-lăng-kính-đại-số)
-- [2. Lăng kính hình học](#2-lăng-kính-hình-học)
-- [3. Lăng kính kỹ thuật + thiểu năng](#3-lăng-kính-kỹ-thuật--thiểu-năng)
-- [Recap](#recap)
+* toc
+{:toc}
 
 
 Chúng ta gặp khái niệm vector khá nhiều, đặc biệt đối với những ngành khoa học tự nhiên thì càng chẳng xa lạ gì. Một vector sẽ thế nào nếu nó đi qua một lăng kính thiểu năng (LKTN)?<br>
