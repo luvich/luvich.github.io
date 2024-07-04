@@ -10,6 +10,13 @@ tags: [linear algebra, mathematics, đại số tuyến tính, vector]
 image: vector_cover.svg.png
 ---
 
+# Table of Contents
+- [1. Lăng kính đại số](#1-lăng-kính-đại-số)
+- [2. Lăng kính hình học](#2-lăng-kính-hình-học)
+- [3. Lăng kính kỹ thuật + thiểu năng](#3-lăng-kính-kỹ-thuật--thiểu-năng)
+- [Recap](#recap)
+
+
 Chúng ta gặp khái niệm vector khá nhiều, đặc biệt đối với những ngành khoa học tự nhiên thì càng chẳng xa lạ gì. Một vector sẽ thế nào nếu nó đi qua một lăng kính thiểu năng (LKTN)?<br>
 > <span style="color:black">Bài viết repost từ <a href="https://hoathekiet.wordpress.com/2023/12/16/chdeptrai-nhin-dai-so-tuyen-tinh-p1-khai-niem-vec-to/" style="color: blue;">blog wordpress</a> </span>
 
