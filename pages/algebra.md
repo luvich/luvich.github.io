@@ -2,11 +2,11 @@
 layout: category
 title: "Algebra"
 category: "algebra"
-parent_category: "maths"
+parent_category: "mathematics"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Algebra"
-    url: "/maths/algebra/"
-permalink: /maths/algebra/
+    url: "/mathematics/algebra/"
+permalink: /mathematics/algebra/
 ---
