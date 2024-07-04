@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem "kramdown", "~> 2.3"
   gem "rouge", "~> 3.26"
   gem "jekyll-mathjax", "~> 1.0"
+  gem "jekyll-toc"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
