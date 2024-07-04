@@ -5,10 +5,10 @@ category: "abstract-algebra"
 parent_category: "algebra"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Algebra"
-    url: "/maths/algebra/"
+    url: "/mathematics/algebra/"
   - title: "Abstract Algebra"
-    url: "/maths/algebra/abstract-algebra/"
-permalink: /maths/algebra/abstract-algebra/
+    url: "/mathematics/algebra/abstract-algebra/"
+permalink: /mathematics/algebra/abstract-algebra/
 ---
