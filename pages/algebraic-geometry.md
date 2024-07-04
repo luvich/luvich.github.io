@@ -5,10 +5,10 @@ category: "algebraic-geometry"
 parent_category: "geometry"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Geometry"
-    url: "/maths/geometry/"
+    url: "/mathematics/geometry/"
   - title: "Algebraic Geometry"
-    url: "/maths/algebra/algebraic-geometry/"
-permalink: /maths/algebra/algebraic-geometry/
+    url: "/mathematics/algebra/algebraic-geometry/"
+permalink: /mathematics/algebra/algebraic-geometry/
 ---
