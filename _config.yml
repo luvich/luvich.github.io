@@ -42,5 +42,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      categories: ["maths", "algebra"]
+      # categories: ["maths", "algebra"]
 
