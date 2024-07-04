@@ -13,7 +13,7 @@ toc_label: "Table of Contents"
 toc_icon: "icon"
 ---
 
-<span style="font-size: 20pt; font-weight: bold; color: #2F2A85;">Table of Contents</span>
+<span style="font-size: 20pt; font-weight: bold; color: #2F2A85;">Mục lục</span>
 
 * toc
 {:toc}
