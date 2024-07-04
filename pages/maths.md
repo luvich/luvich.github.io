@@ -1,9 +1,9 @@
 ---
 layout: category
 title: "Mathematics"
-category: "maths"
-permalink: /maths/
+category: "mathematics"
+permalink: /mathematics/
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
 ---
