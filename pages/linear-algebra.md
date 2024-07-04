@@ -5,11 +5,11 @@ category: "linear-algebra"
 parent_category: "algebra"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Algebra"
-    url: "/maths/algebra/"
+    url: "/mathematics/algebra/"
   - title: "Linear Algebra"
-    url: "/maths/algebra/linear-algebra/"
-permalink: /maths/algebra/linear-algebra/
+    url: "/mathematics/algebra/linear-algebra/"
+permalink: /mathematics/algebra/linear-algebra/
 image: vector_cover.svg.png
 ---
