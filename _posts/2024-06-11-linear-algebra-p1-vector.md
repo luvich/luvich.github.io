@@ -38,7 +38,7 @@ Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu $A$, đ
 
 Nhưng dường như vector là những gì hơn thế. Qua những lăng kính khác nhau, dáng vẻ của nó cũng khác nhau.
 
-# 1. Lăng kính đại số
+# Lăng kính đại số
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
 - Phép cộng giữa các vector: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
 - Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
