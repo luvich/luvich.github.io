@@ -5,8 +5,8 @@ category: "geometry"
 parent_category: "maths"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Geometry"
-    url: "/maths/geometry/"
-permalink: /maths/geometry/
+    url: "/mathematics/geometry/"
+permalink: /mathematics/geometry/
 ---
