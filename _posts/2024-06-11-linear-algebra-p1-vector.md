@@ -13,7 +13,8 @@ toc_label: "Table of Contents"
 toc_icon: "icon"
 ---
 
-# Table of Contents
+<span style="font-size: 20pt; font-weight: bold; color: #2F2A85;">Table of Contents</span>
+
 * toc
 {:toc}
 
