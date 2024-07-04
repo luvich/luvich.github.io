@@ -5,10 +5,10 @@ category: "topology"
 parent_category: "geometry"
 breadcrumb:
   - title: "Mathematics"
-    url: "/maths"
+    url: "/mathematics"
   - title: "Geometry"
-    url: "/maths/geometry/"
+    url: "/mathematics/geometry/"
   - title: "Topology"
-    url: "/maths/geometry/topology/"
-permalink: /maths/geometry/topology/
+    url: "/mathematics/geometry/topology/"
+permalink: /mathematics/geometry/topology/
 ---
