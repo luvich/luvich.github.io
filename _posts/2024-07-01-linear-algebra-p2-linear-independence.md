@@ -18,10 +18,6 @@ toc_icon: "icon"
 * toc
 {:toc}
 
-<div id="toc">
-* toc
-{:toc}
-</div>
 
 Nội dung bài này xoay quanh tính độc lập tuyến tính và phụ thuộc tuyến tính của một hệ các vector (có đề cập ở bài trước <link>). Luôn giả sử $V$ là một không gian vector trên trường $\mathbb{K}$.
 
