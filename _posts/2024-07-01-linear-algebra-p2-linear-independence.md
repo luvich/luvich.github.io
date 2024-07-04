@@ -8,12 +8,20 @@ categories:
   - Linear Algebra
 tags: [linear algebra, mathematics, đại số tuyến tính, vector, độc lập tuyến tính,linear independent]
 image: vector_cover.svg.png
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "icon"
 ---
 
 <span style="font-size: 20pt; font-weight: bold; color: #2F2A85;">Table of Contents</span>
 
 * toc
 {:toc}
+
+<div id="toc">
+* toc
+{:toc}
+</div>
 
 Nội dung bài này xoay quanh tính độc lập tuyến tính và phụ thuộc tuyến tính của một hệ các vector (có đề cập ở bài trước <link>). Luôn giả sử $V$ là một không gian vector trên trường $\mathbb{K}$.
 
