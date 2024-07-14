@@ -86,7 +86,7 @@ luôn có nghiệm trong $\mathbb{K}^k$. Nghĩa là $\operatorname{span}(S)$ là
 </ol>
 
 Nhận tiện nhắc lại một chút về tính độc lập tuyến tính ở <a href="https://luvich.github.io/linear-algebra-p2-linear-independence" style="color: blue;">Phần 2</a>.<br>
-Hệ một vector luôn độc lập tuyến tính, nó chỉ phụ thuộc khi đó là vector $\mathbf{0}$ (vì ta luôn có có cách co vector này về $\mathbf{0}$).<br>
+Hệ một vector luôn độc lập tuyến tính (vì ta luôn có có cách co vector này về $\mathbf{0}$), nó chỉ phụ thuộc khi đó là vector $\mathbf{0}$.<br>
 Giờ ta thử xem xét hệ có hai vector trở lên. Tính độc lập tuyến tính hiểu rằng ta <span style="font-weight: bold; color: #D71B3B;">không</span> có cách nào cầm một đường thẳng và trượt nó theo một đường thẳng khác mà đưa kết quả về $\mathbf{0}$. Điều này chỉ có thể thực hiện được khi các phương này trùng nhau để rồi ta chỉ thực hiện một phép co về $\mathbf{0}$, các phương trùng nhau ta hiểu rằng hệ này phụ thuộc tuyến tính.
 
 Như vậy, qua lăng kính hình học, $\operatorname{span}$ của một tập hợp là ta "cầm" phương của một vector và trượt nó lần lượt theo phương của các vector còn lại, kết quả sẽ tạo ra một vùng không gian nào đó. Tưởng tượng như tô màu vào phương đó, rồi vung vẩy theo các phương còn lại thì thu được một vùng nào đó trong không gian vector $V$.
