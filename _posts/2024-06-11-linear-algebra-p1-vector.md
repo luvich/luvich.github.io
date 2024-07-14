@@ -120,7 +120,7 @@ Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng
 
 
 # 3. Lăng kính kỹ thuật + thiểu năng
-Khi nói về một thứ gì đó trừu tượng, ta thường tìm cách biểu diễn chúng dưới những hình thức khác. Số hoá là một cách. Đầu tiên xét các không gian hữu hạn chiều. Qua lăng kính này:
+Khi nói về một thứ gì đó trừu tượng, ta thường tìm cách biểu diễn chúng dưới những hình thức khác. Số hoá là một cách. Qua lăng kính này:
 <table border="1"> <!-- Thêm border để dễ quan sát các ô trong bảng -->
   <tr>
     <th>Không gian vector</th>
