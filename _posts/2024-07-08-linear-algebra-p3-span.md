@@ -49,7 +49,7 @@ $$
 luôn có nghiệm trong $\mathbb{K}^k$. Nghĩa là $\operatorname{span}(S)$ là một tập hợp chứa tất cả các "vế phải" để hệ phương trình trên luôn luôn có nghiệm. Ta sẽ hình dung $\operatorname{span}(S)$ như một tập hợp chứa "điều kiện luôn có nghiệm" của một hệ phương trình, chứa một điều khả dĩ nào đó mà một hệ thống có thể vận hành tốt.
 
 # Lăng kính hình học
-Ở <a href="https://luvich.github.io/linear-algebra-p2-linear-independence" style="color: blue;">Phần 2</a>, ta biết rằng một tổ hợp tuyến tính chính của các vector trong $S$ chính là việc thực hiện hai phép biến hình tịnh tiến và vị tự. Trước hết co dãn các vector, sau đó dịch chuyển chúng. Như vậy $\operatorname{span}(S)$ chứa mọi kết quả có thể có khi thực hiện các phép biến đổi trên. Thử xét một vài trường hợp của $S$.
+Ở <a href="https://luvich.github.io/linear-algebra-p2-linear-independence" style="color: blue;">Phần 2</a>, ta biết rằng một tổ hợp tuyến tính của các vector trong $S$ chính là việc thực hiện hai phép biến hình tịnh tiến và vị tự. Trước hết co dãn các vector, sau đó dịch chuyển chúng. Như vậy $\operatorname{span}(S)$ chứa mọi kết quả có thể có khi thực hiện các phép biến đổi trên. Thử xét một vài trường hợp của $S$.
 
 <ol>
   <li>
