@@ -42,6 +42,12 @@ Chúng ta cũng nên điểm qua về định nghĩa của một không gian vec
 
 Một <span style="font-weight: bold; color: #FF6E40;">không gian vector</span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
 +  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*): $+:V\times V \to V, (a,b)\mapsto a+b$;
+$$
+\begin{array}{rl}
++:V\times V &\to V,\\
+(a,b)&\mapsto a+b
+\end{array}
+$$
 +  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*): $+:\mathbb{K}\times V \to V, (\lambda,a)\mapsto \lambda a$.
 
 Các phép toán này thoả mãn các tiên đề đảm bảo rằng:
