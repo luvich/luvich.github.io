@@ -107,7 +107,7 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
 
 
 # 2. Lăng kính hình học
-Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc, vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
+Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn, có một điểm gọi là điểm gốc, vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
   - Phép cộng $\longleftrightarrow$ <span style="color: #12A4D9;">phép tịnh tiến</span>.<br>
   Cụ thể, kết quả của phép cộng $\vec{v}+\vec{w}$ việc tịnh tiến vector $\vec{v}$ theo vector $\vec{w}$.
   - Phép nhân $\longleftrightarrow$ <span style="color: #12A4D9;">phép vị tự</span>.<br>
