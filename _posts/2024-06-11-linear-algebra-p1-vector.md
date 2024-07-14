@@ -71,8 +71,8 @@ Hơn nữa, một tập con khác rỗng $W\subset V$ được gọi là một <
 
 # 1. Lăng kính đại số
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
-- *Phép cộng*: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
-- *Phép nhân*: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
+- *Phép cộng:* đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
+- *Phép nhân:* một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
   
 Lúc này không gian được gọi là <span style="font-weight: bold; color: #2F2A85;">không gian vector</span> trên trường $\mathbb{K}$ nào đó. 
 
@@ -81,8 +81,8 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
   <li>
     Không gian các số thực $\mathbb{R}$ trên trường $\mathbb{Q}$ là một không gian vector, trong đó
     <ul>
-      <li>*Phép cộng:* cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
-      <li>Phép nhân: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
+      <li><i>Phép cộng:</i> cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
+      <li><i>Phép nhân:</i> phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
     </ul>
     Trong không gian này, mỗi số thực là một vector.
   </li>
@@ -92,8 +92,8 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
   <li>
     Cho tập hợp $V=\left\lbrace \mathrm{Luvich} \right\rbrace$. Định nghĩa phép toán như sau:
     <ul>
-      <li>Phép cộng: $\mathrm{Luvich} + \mathrm{Luvich}=\mathrm{Luvich}$, chỉ có một phần tử thôi, và quy định nó cộng chính nó bằng chính nó;</li>
-      <li>Phép nhân: với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.</li>
+      <li><i>Phép cộng:</i> $\mathrm{Luvich} + \mathrm{Luvich}=\mathrm{Luvich}$, chỉ có một phần tử thôi, và quy định nó cộng chính nó bằng chính nó;</li>
+      <li><i>Phép nhân:</i> với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.</li>
     </ul>
     Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
     Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là
@@ -108,9 +108,9 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
 
 # 2. Lăng kính hình học
 Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc, vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
-  - Phép cộng $\longleftrightarrow$ phép tịnh tiến.<br>
+  - Phép cộng $\longleftrightarrow$ <span style="color: #12A4D9;">phép tịnh tiến</span>.<br>
   Cụ thể, kết quả của phép cộng $\vec{v}+\vec{w}$ việc tịnh tiến vector $\vec{v}$ theo vector $\vec{w}$.
-  - Phép nhân $\longleftrightarrow$ phép vị tự.<br>
+  - Phép nhân $\longleftrightarrow$ <span style="color: #12A4D9;">phép vị tự</span>.<br>
   Độ lớn của vô hướng là tỉ số vị tự, dấu của vô hướng là hướng vị tự. Trường hợp vô hướng bằng $0$ thì mọi thứ đưa về vector $\mathbf{0}$.
 
 Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng</b> và <b>độ dài</b>. Thấy rằng lực hay chương trình phổ thông nhìn vector qua lăng kính hình học. Đặc trưng này rất quan trọng, nó sẽ liên quan đến spans hay eigenspaces.
