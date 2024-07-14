@@ -103,4 +103,4 @@ Trường hợp các camera đặt ở vị trí tốt, thì các hình ảnh th
 
 
 # Recap
-Qua LKTN, $\operatorname{span}$ của một tập hợp các vector là toàn bộ hình ảnh có thể thu được từ bộ các camera này.
+Qua LKTN, span của một tập hợp các vector là toàn bộ hình ảnh có thể thu được từ bộ các camera này.
