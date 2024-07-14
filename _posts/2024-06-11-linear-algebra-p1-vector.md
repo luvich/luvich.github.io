@@ -107,11 +107,11 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
 
 
 # 2. Lăng kính hình học
-Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc,vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
-  - Phép cộng giữa các vector $\longleftrightarrow$ phép tịnh tiến.<br>
+Lăng kính này cũng liên quan đến không gian, nhưng để dễ hình dung hơn. Có một điểm gọi là điểm gốc, vector là những "mũi tên" nối từ điểm gốc này đến những điểm khác. Mối liên hệ giữa hai góc nhìn đại số và hình học như sau:
+  - Phép cộng $\longleftrightarrow$ phép tịnh tiến.<br>
   Cụ thể, kết quả của phép cộng $\vec{v}+\vec{w}$ việc tịnh tiến vector $\vec{v}$ theo vector $\vec{w}$.
-  - Phép nhân với vô hướng $\longleftrightarrow$ phép vị tự.<br>
-  Tỉ số vị tự chính là độ lớn của vô hướng.
+  - Phép nhân $\longleftrightarrow$ phép vị tự.<br>
+  Độ lớn của vô hướng là tỉ số vị tự, dấu của vô hướng là hướng vị tự. Trường hợp vô hướng bằng $0$ thì mọi thứ đưa về vector $\mathbf{0}$.
 
 Qua lăng kính này, mỗi vector sẽ được đặc trưng bởi <b>hướng</b> và <b>độ dài</b>. Thấy rằng lực hay chương trình phổ thông nhìn vector qua lăng kính hình học. Đặc trưng này rất quan trọng, nó sẽ liên quan đến spans hay eigenspaces.
 
