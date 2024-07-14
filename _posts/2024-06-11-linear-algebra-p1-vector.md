@@ -148,7 +148,7 @@ Lúc này ta nhìn vào một không gian vector thông qua một "màn hình" m
 Khi ta thay đổi cơ sở của không gian vector, các hệ trục toạ độ cũng thay đổi nghĩa là ta đặt các camera theo các vị trí khác, do đó hình ảnh thu được cũng không còn như ban đầu. Lúc này thứ xuất hiện trên màn hình cũng khác đi. Như vậy, toạ độ của vector đối với cơ sở này khác với toạ độ của nó trong một cơ sở khác; giống như hình ảnh của vật thể sẽ bị khác đi nếu thay đổi camera (đặt ở các vị trí khác).<br>
 
 # Recap
-Tóm lại, qua LKTN vector không có gì hơn là hình ảnh thu được từ các camera (do đó luôn luôn lưu ý đến cơ sở của một không gian vector, tức là lưu ý đến việc ta đang nhìn không gian vector từ các camera nào).
+Tóm lại, qua LKTN vector được nhìn thông qua một màn hình, ở đó vector là hình ảnh thu được từ các camera (do đó luôn luôn lưu ý đến cơ sở của một không gian vector, tức là lưu ý đến việc ta đang nhìn không gian vector từ các camera nào).
 
 
 
