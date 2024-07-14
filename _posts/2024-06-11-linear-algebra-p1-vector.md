@@ -41,7 +41,7 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Chúng ta cũng nên điểm qua về định nghĩa của một không gian vector.
 
 Một <span style="font-weight: bold; color: #FF6E40;">không gian vector</span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
-+  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*): $+:V\times V \to V, (a,b)\mapsto a+b$;
++  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*):
   
 $$
 \begin{array}{rl}
@@ -49,7 +49,15 @@ $$
 (a,b)&\mapsto a+b
 \end{array}
 $$
-+  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*): $+:\mathbb{K}\times V \to V, (\lambda,a)\mapsto \lambda a$.
++  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*):
+
+  
+$$
+\begin{array}{rl}
+\cdot:\mathbb{K}\times V &\to V,\\
+(\lambda,b)&\mapsto \lambda a
+\end{array}
+$$
 
 Các phép toán này thoả mãn các tiên đề đảm bảo rằng:
 + $V$ cùng với phép cộng là một nhóm giao hoán,
