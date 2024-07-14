@@ -18,7 +18,7 @@ toc_icon: "icon"
 * toc
 {:toc}
 
-
+# Giới thiệu
 Chúng ta gặp khái niệm vector khá nhiều, đặc biệt đối với những ngành khoa học tự nhiên thì càng chẳng xa lạ gì. Một vector sẽ thế nào nếu nó đi qua một lăng kính thiểu năng (LKTN)?<br>
 > <span style="color:black">Bài viết repost từ <a href="https://hoathekiet.wordpress.com/2023/12/16/chdeptrai-nhin-dai-so-tuyen-tinh-p1-khai-niem-vec-to/" style="color: blue;">blog wordpress</a> </span>
 
@@ -49,6 +49,7 @@ $$
 (a,b)&\mapsto a+b
 \end{array}
 $$
+
 +  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*):
 
   
