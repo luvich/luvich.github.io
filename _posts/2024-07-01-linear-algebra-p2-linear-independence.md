@@ -20,7 +20,7 @@ toc_icon: "icon"
 
 
 # Giới thiệu
-Nội dung bài này xoay quanh tính độc lập tuyến tính và phụ thuộc tuyến tính của một hệ các vector. Luôn giả sử $V$ là một không gian vector trên trường $\mathbb{K}$.
+Nội dung bài này xoay quanh tính độc lập tuyến tính và phụ thuộc tuyến tính của một hệ các vector. Luôn giả sử $V$ là một không gian vector trên trường $\mathbb{K}$ (tạm thời trong series này sẽ luôn xét không gian vector hữu hạn chiều).
 
 Trước hết đi qua vài định nghĩa, một <span style="font-weight: bold; color: #FF6E40;">tổ hợp tuyến tính</span> (*linear combination*) của các vector $\mathbf{v}_ 1,\ldots,\mathbf{v}_ n \in V$ là một biểu thức có dạng $\sum_{i=1}^n \lambda_i \mathbf{v}_i$, trong đó $\lambda_i\in\mathbb{K}$. Một vector $\mathbf{v}\in V$ mà có dạng trên thì gọi là một <span style="font-weight: bold; color: #FF6E40;">biểu diễn tuyến tính</span> (*linear representation*) của $\mathbf{v}$ qua các vector $\mathbf{v}_i$. Lưu ý là biểu diễn tuyến tính có thể không duy nhất.
 
