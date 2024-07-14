@@ -41,12 +41,13 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 Chúng ta cũng nên điểm qua về định nghĩa của một không gian vector.
 
 Một <span style="font-weight: bold; color: #FF6E40;">không gian vector<span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
-+  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (từ nay sẽ gọi tắt là *phép cộng*):  
++  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*): $+:V\times V \to V, (a,b)\mapsto a+b$;
++  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*): $+:\mathbb{K}\times V \to V, (\lambda,a)\mapsto \lambda a$.
 
-A vector space over a field F is a non-empty set V together with a binary operation and a binary function that satisfy the eight axioms listed below. In this context, the elements of V are commonly called vectors, and the elements of F are called scalars.[2]
+Các phép toán này thoả mãn các tiên đề đảm bảo rằng:
++ $V$ cùng với phép cộng là một nhóm giao hoán,
++ Phép nhân có tính phân phối với với cộng trên $mathbb{K}$ và phép cộng trên $V$, có tính chất của một tác động (action) và được chuẩn hoá.
 
-The binary operation, called vector addition or simply addition assigns to any two vectors v and w in V a third vector in V which is commonly written as v + w, and called the sum of these two vectors.
-The binary function, called scalar multiplication, assigns to any scalar a in F and any vector v in V another vector in V, which is denoted av.[nb 2]
 
 # 1. Lăng kính đại số
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
