@@ -40,13 +40,15 @@ Nhưng dường như vector là những gì hơn thế. Qua những lăng kính 
 
 Chúng ta cũng nên điểm qua về định nghĩa của một không gian vector.
 
-Một <span style="font-weight: bold; color: #FF6E40;">không gian vector<span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
+Một <span style="font-weight: bold; color: #FF6E40;">không gian vector</span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
 +  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*): $+:V\times V \to V, (a,b)\mapsto a+b$;
 +  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*): $+:\mathbb{K}\times V \to V, (\lambda,a)\mapsto \lambda a$.
 
 Các phép toán này thoả mãn các tiên đề đảm bảo rằng:
 + $V$ cùng với phép cộng là một nhóm giao hoán,
-+ Phép nhân có tính phân phối với với cộng trên $mathbb{K}$ và phép cộng trên $V$, có tính chất của một tác động (action) và được chuẩn hoá.
++ Phép nhân có tính phân phối với với cộng trên $\mathbb{K}$ và phép cộng trên $V$, có tính chất của một tác động (action) và được chuẩn hoá.
+
+Hơn nữa, một tập con khác rỗng $W\subset V$ được gọi là một <span style="font-weight: bold; color: #FF6E40;">không gian vector con</span> của $V$ nếu $W$ khép kín với hai phép toán trên. Khép kín có thể được hiểu là kết quả của phép toán không "vượt ra ngoài không gian".
 
 
 # 1. Lăng kính đại số
