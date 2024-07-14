@@ -21,15 +21,15 @@ toc_icon: "icon"
 
 Nội dung bài này xoay quanh tính độc lập tuyến tính và phụ thuộc tuyến tính của một hệ các vector (có đề cập ở bài trước <link>). Luôn giả sử $V$ là một không gian vector trên trường $\mathbb{K}$.
 
-Trước hết đi qua vài định nghĩa, một <span style="font-weight: bold; color: #2F2A85;">tổ hợp tuyến tính</span> (*linear combination*) của các vector $\mathbf{v}_ 1,\ldots,\mathbf{v}_ n \in V$ là một biểu thức có dạng $\sum_{i=1}^n \lambda_i \mathbf{v}_i$, trong đó $\lambda_i\in\mathbb{K}$. Một vector $\mathbf{v}\in V$ mà có dạng trên thì gọi là một <span style="font-weight: bold; color: #2F2A85;">biểu diễn tuyến tính</span> (*linear representation*) của $\mathbf{v}$ qua các vector $\mathbf{v}_i$. Lưu ý thêm là biểu diễn tuyến tính có thể không duy nhất.
+Trước hết đi qua vài định nghĩa, một <span style="font-weight: bold; color: #FF6E40;">tổ hợp tuyến tính</span> (*linear combination*) của các vector $\mathbf{v}_ 1,\ldots,\mathbf{v}_ n \in V$ là một biểu thức có dạng $\sum_{i=1}^n \lambda_i \mathbf{v}_i$, trong đó $\lambda_i\in\mathbb{K}$. Một vector $\mathbf{v}\in V$ mà có dạng trên thì gọi là một <span style="font-weight: bold; color: #FF6E40;">biểu diễn tuyến tính</span> (*linear representation*) của $\mathbf{v}$ qua các vector $\mathbf{v}_i$. Lưu ý là biểu diễn tuyến tính có thể không duy nhất.
 
-Hệ $\left\lbrace \mathbf{v}_i \right\rbrace$ được gọi là <span style="font-weight: bold; color: #2F2A85;">độc lập tuyến tính</span> (*linearly independent*) nếu hệ thức
+Hệ $\left\lbrace \mathbf{v}_i \right\rbrace$ được gọi là <span style="font-weight: bold; color: #FF6E40;">độc lập tuyến tính</span> (*linearly independent*) nếu hệ thức
 
 $$
 \lambda_1\mathbf{v}_1+\cdots \lambda_n\mathbf{v}_n=0
 $$
 
-xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$. Nếu $\left\lbrace \mathbf{v}_i \right\rbrace$ không độc lập tuyến tính thì ta nói nó <span style="font-weight: bold; color: #2F2A85;">phụ thuộc tuyến tính</span> (*linearly dependent*).
+xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$. Nếu $\left\lbrace \mathbf{v}_i \right\rbrace$ không độc lập tuyến tính thì ta nói nó <span style="font-weight: bold; color: #FF6E40;">phụ thuộc tuyến tính</span> (*linearly dependent*).
 
 # 1. Lăng kính đại số
 Qua lăng kính đại số, việc độc lập hay phụ thuộc của một hệ các vector trở thành tính duy nhất nghiệm của một hệ phương trình tuyến tính. Cụ thể, hệ các vector $\left\lbrace \mathbf{v}_ i = \left[v_{1i},\ldots,v_{mi}\right]^\top \right\rbrace$ được gọi là độc lập tuyến tính nếu hệ $m$ phương trình tuyến tính thuần nhất $n$ ẩn $\lambda_1,\ldots, \lambda_n$ sau:
