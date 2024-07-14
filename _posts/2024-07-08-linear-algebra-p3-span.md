@@ -85,7 +85,7 @@ luôn có nghiệm trong $\mathbb{K}^k$. Nghĩa là $\operatorname{span}(S)$ là
   </li>
 </ol>
 
-Như vậy, qua lăng kính hình học, $operatorname{span}$ của một tập hợp là ta "cầm" phương của một vector và trượt nó lần lượt theo phương của các vector còn lại, kết quả sẽ tạo ra một vùng không gian nào đó.
+Như vậy, qua lăng kính hình học, $\operatorname{span}$ của một tập hợp là ta "cầm" phương của một vector và trượt nó lần lượt theo phương của các vector còn lại, kết quả sẽ tạo ra một vùng không gian nào đó.
 
 
 # Lăng kính thiểu năng
