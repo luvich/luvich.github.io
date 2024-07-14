@@ -95,6 +95,8 @@ Trong trường hợp các camera này đặt ở vị trí chưa đủ tốt, t
 
 Trường hợp các camera đặt ở vị trí tốt, thì các hình ảnh thu được vừa đủ tốt, không bị lãng phí tài nguyên, tận dụng tối đa hiệu suất của các camera. Nghĩa là ta có thể quan sát được vùng không gian lớn nhất, hình ảnh thu được nhiều nhất từ một số camera này.
 
+<img src="https://luvich.github.io/assets/img/2024-07-08-cameras.png" alt="Camera Diagram" style="width:100%;">
+
 
 # Recap
 Qua LKTN, $\operatorname{span}$ của một tập hợp các vector là toàn bộ hình ảnh có thể thu được từ bộ các camera này.
