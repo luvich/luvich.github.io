@@ -71,8 +71,8 @@ Hơn nữa, một tập con khác rỗng $W\subset V$ được gọi là một <
 
 # 1. Lăng kính đại số
 Đại số sẽ quan tâm nhiều hơn về mặt cấu trúc của không gian. Do đó sẽ nhìn vector như một phần tử của tập hợp, một điểm trong không gian trừu tượng. Dưới lăng kính này, vector là một thứ gì đó không thực sự rõ ràng, không dễ dàng hình dung. Sự tồn tại của nó chỉ là sự thoả mãn các tiên đề xung quanh hai phép toán:
-- Phép cộng giữa các vector: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
-- Phép nhân với vô hướng: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
+- Phép cộng: đây là một tác động của một vector lên một vector khác, cho ra kết quả vẫn là một vector;
+- Phép nhân: một tác động từ bên ngoài lên không gian và cho kết quả là một vector.
   
 Lúc này không gian được gọi là <span style="font-weight: bold; color: #2F2A85;">không gian vector</span> trên trường $\mathbb{K}$ nào đó. 
 
@@ -82,7 +82,7 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
     Không gian các số thực $\mathbb{R}$ trên trường $\mathbb{Q}$ là một không gian vector, trong đó
     <ul>
       <li>Phép cộng: cũng chính là phép cộng trên $\mathbb{R}$, nếu $a,b\in \mathbb{R}$ thì $a+b\in\mathbb{R}$;</li>
-      <li>Phép nhân với vô hướng: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
+      <li>Phép nhân: phép nhân một số thực bởi một số hữu tỷ, nếu $q\in\mathbb{Q}$ và $a\in\mathbb{R}$ thì $qa\in\mathbb{R}$.</li>
     </ul>
     Trong không gian này, mỗi số thực là một vector.
   </li>
@@ -93,7 +93,7 @@ Lúc này không gian được gọi là <span style="font-weight: bold; color: 
     Cho tập hợp $V=\left\lbrace \mathrm{Luvich} \right\rbrace$. Định nghĩa phép toán như sau:
     <ul>
       <li>Phép cộng: $\mathrm{Luvich} + \mathrm{Luvich}=\mathrm{Luvich}$, chỉ có một phần tử thôi, và quy định nó cộng chính nó bằng chính nó;</li>
-      <li>Phép nhân với vô hướng: với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.</li>
+      <li>Phép nhân: với mọi $\lambda \in \mathbb{K}$, định nghĩa $\lambda \cdot \mathrm{Luvich}=\mathrm{Luvich}$, nghĩa là mọi tác động bên ngoài đều không thay đổi phần tử ấy.</li>
     </ul>
     Có thể kiểm tra được rằng không gian này thoả mãn mọi tiên đề của không gian vector, do đó $V$ là một không gian vector.
     Ở trên là sự nguỵ biện, trá hình cho một không gian vector hữu hạn duy nhất. Thực tế là
