@@ -33,19 +33,19 @@ Trước hết đi qua vài định nghĩa.
     font-family: Arial, sans-serif;
     margin: 20px 0;
 ">
-Một <span style="font-weight: bold; color: #FF6E40;">tổ hợp tuyến tính</span> (*linear combination*) của các vector $\mathbf{v}_ 1,\ldots,\mathbf{v}_ n \in V$ là một biểu thức có dạng $\sum_{i=1}^n \lambda_i \mathbf{v}_i$, trong đó $\lambda_i\in\mathbb{K}$.
+Một <span style="font-weight: bold; color: #FF6E40;">tổ hợp tuyến tính</span> (<i>linear combination</i>) của các vector $\mathbf{v}_ 1,\ldots,\mathbf{v}_ n \in V$ là một biểu thức có dạng $\sum_{i=1}^n \lambda_i \mathbf{v}_i$, trong đó $\lambda_i\in\mathbb{K}$.<br>
   
-Một vector $\mathbf{v}\in V$ mà có dạng trên thì gọi là một <span style="font-weight: bold; color: #FF6E40;">biểu diễn tuyến tính</span> (*linear representation*) của $\mathbf{v}$ qua các vector $\mathbf{v}_i$. Lưu ý là biểu diễn tuyến tính có thể không duy nhất.
+Một vector $\mathbf{v}\in V$ mà có dạng trên thì gọi là một <span style="font-weight: bold; color: #FF6E40;">biểu diễn tuyến tính</span> (<i>linear representation</i>) của $\mathbf{v}$ qua các vector $\mathbf{v}_i$. Lưu ý là biểu diễn tuyến tính có thể không duy nhất.<br>
 
-Hệ $\left\lbrace \mathbf{v}_i \right\rbrace$ được gọi là <span style="font-weight: bold; color: #FF6E40;">độc lập tuyến tính</span> (*linearly independent*) nếu hệ thức
+Hệ $\left\lbrace \mathbf{v}_i \right\rbrace$ được gọi là <span style="font-weight: bold; color: #FF6E40;">độc lập tuyến tính</span> (<i>linearly independent</i>) nếu hệ thức
 
 $$
 \lambda_1\mathbf{v}_1+\cdots \lambda_n\mathbf{v}_n=0
 $$
 
-xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$. 
+xảy ra chỉ khi $\lambda_1=\cdots=\lambda_n=0$. <br>
 
-Nếu $\left\lbrace \mathbf{v}_i \right\rbrace$ không độc lập tuyến tính thì ta nói nó <span style="font-weight: bold; color: #FF6E40;">phụ thuộc tuyến tính</span> (*linearly dependent*).
+Nếu $\left\lbrace \mathbf{v}_i \right\rbrace$ không độc lập tuyến tính thì ta nói nó <span style="font-weight: bold; color: #FF6E40;">phụ thuộc tuyến tính</span> (<i>linearly dependent</i>).
 </div>
 
 
