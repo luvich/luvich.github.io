@@ -26,4 +26,10 @@ Trước hết chúng ta sẽ quan tâm đến một tập hợp $B$ mà $\opera
 
 Một hệ các vector của $V$ được gọi là một <span style="font-weight: bold; color: #FF6E40;">hệ sinh</span> của $V$ nếu mọi vector trong $V$ đều có thể biểu diễn tuyến tính qua hệ này.
 
-Nếu $B$ là một hệ sinh của $V$ thì $\operatorname{span}(B)=V$.
+Nếu $B$ là một hệ sinh của $V$ thì $\operatorname{span}(B)=V$. Lưu ý rằng biểu diễn tuyến tính của vector nào đó qua hệ sinh có thể không duy nhất.
+
+Một hệ các vector của $V$ được gọi là một <span style="font-weight: bold; color: #FF6E40;">hệ sinh</span> của $V$ nếu mọi vector trong $V$ đều có thể biểu diễn tuyến tính qua hệ này.
+
+<div style="border: 1px solid black; padding: 10px;">
+  Đây là văn bản trong khung viền.
+</div>
