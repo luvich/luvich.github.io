@@ -49,7 +49,7 @@ Chúng ta cũng nên điểm qua về định nghĩa của một không gian vec
     margin: 20px 0;
 ">
 Một <span style="font-weight: bold; color: #FF6E40;">không gian vector</span> trên trường $\mathbb{K}$ là một tập hợp khác rỗng $V$ cùng với hai phép toán, gồm:
-+  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là *phép cộng*):
++  <span style="font-weight: bold; color: #2F2A85;">Phép cộng vector</span> (trong series này, sẽ gọi tắt là <i>phép cộng</i>):
   
 $$
 \begin{array}{rl}
@@ -58,7 +58,7 @@ $$
 \end{array}
 $$
 
-+  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là *phép nhân*):
++  <span style="font-weight: bold; color: #2F2A85;">Phép nhân vector với vô hướng</span> (trong series này, sẽ gọi tắt là <i>phép nhân</i>):
 
   
 $$
