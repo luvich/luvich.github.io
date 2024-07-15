@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Đại số tuyến tính (P3): Cơ sở"
+title: "Đại số tuyến tính (P4): Cơ sở"
 author: "Luvich"
 categories: 
   - mathematics
@@ -26,3 +26,4 @@ Trước hết chúng ta sẽ quan tâm đến một tập hợp $B$ mà $\opera
 
 Một hệ các vector của $V$ được gọi là một <span style="font-weight: bold; color: #FF6E40;">hệ sinh</span> của $V$ nếu mọi vector trong $V$ đều có thể biểu diễn tuyến tính qua hệ này.
 
+Nếu $B$ là một hệ sinh của $V$ thì $\operatorname{span}(B)=V$.
