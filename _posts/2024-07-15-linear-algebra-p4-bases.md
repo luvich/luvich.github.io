@@ -30,6 +30,15 @@ Nếu $B$ là một hệ sinh của $V$ thì $\operatorname{span}(B)=V$. Lưu ý
 
 Một hệ các vector của $V$ được gọi là một <span style="font-weight: bold; color: #FF6E40;">hệ sinh</span> của $V$ nếu mọi vector trong $V$ đều có thể biểu diễn tuyến tính qua hệ này.
 
-<div style="border: 1px solid black; padding: 10px;">
-  Đây là văn bản trong khung viền.
+<div style="
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+">
+  <h2 style="color: #4CAF50;">Tiêu đề của khung viền</h2>
+  <p>Đây là văn bản trong khung viền. Bạn có thể thêm bất kỳ nội dung nào bạn muốn ở đây.</p>
 </div>
