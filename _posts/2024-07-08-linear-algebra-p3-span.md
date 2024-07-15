@@ -22,7 +22,17 @@ toc_icon: "icon"
 # Giới thiệu
 Hiện tại chưa biết dịch từ span này sang tiếng Việt là gì, tạm gọi là *"mở rộng"*.
 
-Có một tập con $S$ (không nhất thiết hữu hạn) các vector của $V$. Một <span style="font-weight: bold; color: #FF6E40;">mở rộng / mở rộng tuyến tính / bao tuyến tính</span> (<i>span / linear span / linear hull</i>) của $S$ là giao của tất cả các không gian vector con của $V$ mà chứa $S$.
+<div style="
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+">
+Cho $S$ một tập con (không nhất thiết hữu hạn) các vector của $V$. Một <span style="font-weight: bold; color: #FF6E40;">mở rộng / mở rộng tuyến tính / bao tuyến tính</span> (<i>span / linear span / linear hull</i>) của $S$ là giao của tất cả các không gian vector con của $V$ mà chứa $S$.
+</div>
 
 Khái niệm giao của một cái gì đó chứa một tập hợp cho trước rất thường gặp trong toán học, giống như bao affine, bao lồi, radical của ideal, ... Ở đây giao của các không gian vector con, nhớ lại rằng không gian vector con là không gian mà đóng kín đối với các phép toán của $V$.
 Như vậy span của $S$ sẽ là một cái gì đó mang cấu trúc của một không gian vector và chứa mọi vector của $S$.
