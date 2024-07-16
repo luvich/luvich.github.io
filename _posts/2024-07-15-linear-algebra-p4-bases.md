@@ -39,6 +39,6 @@ Một hệ các vector của $V$ được gọi là một <span style="font-weig
     font-family: Arial, sans-serif;
     margin: 20px 0;
 ">
-  <h2 style="color: #4CAF50;">Tiêu đề của khung viền</h2>
-  <p>Đây là văn bản trong khung viền. Bạn có thể thêm bất kỳ nội dung nào bạn muốn ở đây.</p>
+  <span style="font-size: 14pt;font-weight: bold;color: #4CAF50;">Định nghĩa</span>
+  <p>Test khung</p>
 </div>
