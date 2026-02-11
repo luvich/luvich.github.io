@@ -2,8 +2,7 @@ name: Deploy Astro site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,19 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
 
-      - name: Enable pnpm (corepack)
+      - name: Enable pnpm via Corepack
         run: |
           corepack enable
           corepack prepare pnpm@10.29.2 --activate
-          pnpm -v
+          pnpm --version
 
-      - name: Install dependencies
+      - name: Install deps
         run: pnpm install --frozen-lockfile
 
       - name: Build
@@ -43,7 +45,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     needs: build
