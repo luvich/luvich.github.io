@@ -4,7 +4,7 @@ published: 2026-02-12
 description: Giới thiệu các ký hiệu được dùng trong series này
 image: "./landsberg.jpg"
 tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application, Notation, Ký hiệu]
-category: Mathematics
+category: Tensor
 draft: false
 ---
 

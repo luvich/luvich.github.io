@@ -80,6 +80,27 @@
           "type": "string",
           "default": ""
         },
+        "toc": {
+          "type": "boolean",
+          "default": false
+        },
+        "tocDepth": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "default": [
+            2,
+            3
+          ]
+        },
         "prevTitle": {
           "type": "string",
           "default": ""

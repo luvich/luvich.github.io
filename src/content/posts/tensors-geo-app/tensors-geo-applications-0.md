@@ -4,7 +4,7 @@ published: 2026-02-12
 description: Cuốn sách thú vị về tensor dưới lăng kính hình học
 image: "./landsberg.jpg"
 tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application]
-category: Mathematics
+category: Tensor
 draft: false
 ---
 
