@@ -10,9 +10,11 @@ import { getDir, getPostUrlBySlug } from "@utils/url-utils";
 import { Icon } from "astro-icon/components";
 import { licenseConfig } from "src/config";
 import ImageWrapper from "../../components/misc/ImageWrapper.astro";
+import ToCInline from "../../components/ToCInline.astro";
 import PostMetadata from "../../components/PostMeta.astro";
 import { profileConfig, siteConfig } from "../../config";
 import { formatDateToYYYYMMDD } from "../../utils/date-utils";
+
 
 export async function getStaticPaths() {
   const blogEntries = await getSortedPosts();
@@ -66,7 +68,7 @@ const jsonLd = {
   description={entry.data.description}
   lang={entry.data.lang}
   setOGTypeArticle={true}
-  headings={tocHeadings}
+  headings={[]}
 >
   <script
     is:inline
@@ -151,6 +153,7 @@ const jsonLd = {
 
 
       <Markdown class="mb-6 markdown-content onload-animation">
+        {showToc && tocHeadings.length > 0 && <ToCInline headings={tocHeadings} />}
         <Content />
       </Markdown>
 
