@@ -134,3 +134,59 @@
         margin: 1em 0;
     }
 }
+
+/* Collapsible hint (details/summary) */
+.custom-md details.hint {
+    border: 1px dashed var(--line-divider);
+    border-radius: 0.75rem;
+    padding: 0.75rem 0.9rem;
+    background: var(--card-bg, transparent);
+    margin: 1rem 0;
+}
+
+.custom-md details.hint>summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--primary);
+    user-select: none;
+    list-style: none;
+}
+
+.custom-md details.hint>summary::-webkit-details-marker {
+    display: none;
+}
+
+.custom-md details.hint>summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transform: translateY(-1px);
+}
+
+.custom-md details.hint[open]>summary::before {
+    content: "▼";
+}
+
+.custom-md details.hint>*:not(summary) {
+    margin-top: 0.75rem;
+}
+
+.custom-md ol.alpha-paren {
+    list-style: none;
+    counter-reset: alpha;
+    padding-left: 1.6rem;
+}
+
+.custom-md ol.alpha-paren>li {
+    counter-increment: alpha;
+    position: relative;
+    margin: 0.25rem 0;
+}
+
+.custom-md ol.alpha-paren>li::before {
+    content: "(" counter(alpha, lower-alpha) ") ";
+    position: absolute;
+    left: -1.6rem;
+    color: var(--primary);
+    font-weight: 600;
+}
