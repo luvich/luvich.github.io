@@ -57,3 +57,32 @@ $$
 :::
 
 
+## Ánh xạ song tuyến tính
+Ánh xạ $f:A\times B \to C$ được gọi là <span style="color:#ff6e40;"><em>song tuyến tính</em></span> nếu với mỗi phần tử cố định $\bm{b}\in B$, ánh xạ $f(\cdot,\bm{b}):A\to C$ tuyến tính và tương tự cho mỗi phần tử cố định của $A$.
+
+:::hint[<span style="color:#12a4d9;"> **Phép nhân ma trận là một ánh xạ song tuyến tính** </span>]
+Phép nhân các ma trận vuông là một ánh xạ song tuyến tính:
+$$
+    f:\Bbb{C}^{n\times n} \times \Bbb C^{n\times n} \to \Bbb C^{n\times n}
+$$
+Nếu ta cố định một thành phần thì ánh xạ này tuyến tính theo thành phần còn lại, cụ thể $(\lambda_1\bm{A}_1+\lambda_2\bm{A}_2)\bm{B}=\lambda_1\bm{A}_1\bm{B}+\lambda_2\bm{A}_2\bm{B}$.
+:::
+
+:::hint[<span style="color:#12a4d9;"> **Ví dụ ánh xạ song tuyến tính** </span>]
+Với $\alpha \in A^*$, $\beta \in B^*$ và $c\in C$, ánh xạ
+$$
+    \alpha\otimes \beta \otimes c: A\times B \to C,\qquad (\bm{a},\bm{b})\mapsto \alpha(\bm{a})\beta(\bm{b})\bm{c}
+$$
+là một ánh xạ song tuyến tính.
+:::
+
+Với một ánh xạ song tuyến tính $T: A\times B \to C$, ta có thể biểu diễn nó dưới dạng tổng
+<div id="eq-rank1"></div>
+
+$$
+    T(\bm{a},\bm{b})=\sum_{r=1}^R\alpha^r(\bm{a})\beta^r(\bm{b})\bm{c}_r,
+    \tag{1}
+$$
+trong đó $\alpha^r\in A^*, \beta\in B^*$ và $\bm{c}_r\in C$.
+
+Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $T$ và được ký hiệu bởi $\mathrm{rank}\; T$.

@@ -17,7 +17,9 @@ draft: false
 | $\bm{v}, \bm{w}$ | Vector | $ \bm{v} \in \Bbb{K}^{I} $ |
 | $\bm{A}, \bm{B}, \bm{C}$ | Ma trận | $ \bm{A} \in \Bbb{K}^{I\times R} $ |
 | $\cal{T}$ | Tensor | ${\cal{T}} \in \Bbb{K}^{I\times J\times K}$ |
-| $A,B,C,U,V$ | Không gian vector |  |
+| $A,B,C,U,V$ | Không gian vector | $\bm{v}\in V$ |
+| $A^*,B^*, V^*$ | Không gian vector đối ngẫu |  |
+| $\alpha, \beta$ | Phiếm hàm tuyến tính | $\alpha \in A^*$ |
 | $X,Y$ | Đa tạp |  |
 | $x,y,z,p,q$ | Điểm trong đa tạp | $x\in X$ |
 | $ \frak{S} $ | Nhóm hoán vị | $ \sigma \in \frak{S}_R $ |
