@@ -1,9 +1,9 @@
 ---
-title: 'Tensors: Hình học và Ứng dụng - P1 - Giới thiệu - Đại số đa tuyến tính'
+title: 'Tensors: Hình học và Ứng dụng - P1.1 - Giới thiệu - Đại số đa tuyến tính'
 published: 2026-02-12
 description: Ngó một chút về đại số đa tuyến tính
 image: "./landsberg.jpg"
-tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application, Đại số, Algebra, Đại số tuyến tính, Linear Algebra, Đại số đa tuyến tính, Multilinear Algebra]
+tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application, Đại số, Algebra, Đại số tuyến tính, Linear Algebra, Đại số đa tuyến tính, Multilinear Algebra, Rank, Linear Map, Hạng, Bilinear Map]
 category: Tensor
 toc: true
 draft: false
