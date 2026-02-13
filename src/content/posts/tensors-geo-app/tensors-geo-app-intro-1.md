@@ -1,5 +1,5 @@
 ---
-title: 'Tensors: Hình học và Ứng dụng - Giới thiệu - Đại số đa tuyến tính'
+title: 'Tensors: Hình học và Ứng dụng - P1 - Giới thiệu - Đại số đa tuyến tính'
 published: 2026-02-12
 description: Ngó một chút về đại số đa tuyến tính
 image: "./landsberg.jpg"
@@ -86,3 +86,23 @@ $$
 trong đó $\alpha^r\in A^*, \beta\in B^*$ và $\bm{c}_r\in C$.
 
 Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $T$ và được ký hiệu bởi $\mathrm{rank}\; T$.
+
+:::hint[<span style="color:#12a4d9;"> **Khác biệt giữa ánh xạ tuyến tính và song tuyến tính** </span>]
+Với ánh xạ tuyến tính $f:A\to B$ thì "rank = rank hàng = rank cột", tức là $\mathrm{rank}\; f=\dim f(A) = \dim f^\top (B^*)$, và $\mathrm{rank}\; f \leq \min\{\dim A, \dim B\}$. Với "hầu hết" các ánh xạ tuyến tính đều đạt được rank cực đại</br>
+<span style="color:#6b7280;"> hầu hết ở đây hiểu theo nghĩa là nằm trong một tập mở Zariski.</span>
+
+Đối với ánh xạ song tuyến tính $f:A\times B\to C$ thì rank của $f$ nói chung lớn hơn $\max\{\dim A, \dim B, \dim C\}$ và "hầu hết" các ánh xạ song tuyến tính thì không đạt được rank tối đa.
+:::
+
+## Không gian các tensor và các đa tạp bên trong chúng
+Ký hiệu $A^*\otimes B$ là không gian vector các ánh xạ tuyến tính $A\to B$. Tập hợp các ánh xạ tuyến tính có hạng không quá $r$ được ký hiệu bởi $\hat \sigma_r = \hat \sigma_{r, A^*\otimes B}$. Đây là tập nghiệm của họ các đa thức thuần nhất trên không gian vector $A^*\otimes B$. Cụ thể, nếu ta chọn các cơ sở và đồng nhất $A^*\otimes B$ với không gian các ma trận $\dim A \times \dim B$, thì $\hat \sigma_r$ là tập hợp các ma trận có các định thức con kích thước $(r+1)\times (r+1)$ bằng $0$. Điều này nghĩa là luôn có một cách để test liệu một ánh xạ tuyến tính có hạng tối đa $r$ hay không.
+
+Một tập con của một không gian vector được xác định bởi tập nghiệm của một họ các đa thức thuần nhất được gọi là một <span style="color:#ff6340;"><em>đa tạp đại số</em></span>.
+
+Ký hiệu $A^*\otimes B^* \otimes C$ là không gian vector các ánh xạ song tuyến tính $A\times B \to C$. Đây là ví dụ đầu tiên của một không gian các <span style="color:#ff6340;"><em>tensor</em></span>. Biễu diễn trong cơ sở tương ứng, một ánh xạ song tuyến tính là một "ma trận 3-chiều" hay còn gọi là mảng (array).
+
+Tập hợp các ánh xạ song tuyến tính có hạng không vượt $r$ lại KHÔNG phải một đa tạp đại số. Tuy nhiên tập hợp các ánh xạ song tuyến tính có hạng biên không quá $r$ là một đa tạp đại số. Tập hợp các ánh xạ song tuyến tính $f:A\times B\to C$ với hạng biên không quá $r$ được ký hiệu bởi $\hat \sigma_r = \hat \sigma_{r,A^*\otimes B^*\otimes C}$. Đây là tập nghiệm của một họ các đa thức thuần nhất trên không gian vector $A^*\otimes B^*\otimes C$.
+
+Về nguyên tắc, để test một ánh xạ song tuyến tính $T$ có thuộc vào $\hat \sigma_r$ hay không, ta có thể tính giá trị của các đa thức xác định $\hat \sigma_r$ tại $T$ và kiểm tra xem chúng có bằng $0$ hay không. Tuy nhiên, khác với ánh xạ tuyến tính, việc tính các đa thức xác định $\hat \sigma_{r, A^*\otimes B^* \otimes C}$ nói chung còn để mở.
+
+Tổng quát, với các không gian vector $A_1,\ldots,A_n$, ta có thể xét các <span style="color:#ff6340;"><em>ánh xạ đa tuyến tính</em></span> $A_1\times \cdots \times A_n\to\Bbb C$. Tập hợp các ánh xạ đa tuyến tính này lập thành một không gian vector. Đây là một không gian các tensor và được ký hiệu bởi $A_1^*\otimes \cdots\otimes A_n^*$. Hạng của mỗi phần tử trong $A_1^*\otimes \cdots\otimes A_n^*$ được định nghĩa tương tự như ánh xạ song tuyến tính. Trong các cơ sở tương ứng, đây là tập hợp các mảng $\dim A_1 \times \cdots\times \dim A_n$ chiều.
