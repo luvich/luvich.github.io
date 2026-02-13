@@ -23,3 +23,7 @@ draft: false
 | $X,Y$ | Đa tạp |  |
 | $x,y,z,p,q$ | Điểm trong đa tạp | $x\in X$ |
 | $ \frak{S} $ | Nhóm hoán vị | $ \sigma \in \frak{S}_R $ |
+| $ \mathrm{rank} $ | Hạng | [Phần 1, Mục 1.3]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#không-gian-vector-đối-ngẫu ) |
+| $ \mathrm{srank} $ | Hạng đối xứng | [Phần 1, Mục 3.1]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-đối-xứng ) |
+| $ \underline{\mathrm{rank}} $ | Hạng biên | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |
+| $ \underline{\mathrm{srank}} $ | Hạng biên đối xứng | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |

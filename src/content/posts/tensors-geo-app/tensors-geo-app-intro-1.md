@@ -116,7 +116,7 @@ $$
 
 <span style="color:#ff6340;"><em>Hạng biên đối xứng</em></span> của một đa thức thuần nhất $P$, ký hiệu $\underline{\mathrm{srank}}\;P$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các đa thức $P_\epsilon$ có hạng $R$ thoả mãn $P$ là giới hạn của $P_\epsilon$ khi $\epsilon \to 0$.
 
-<span style="color:#ff6340;"><em>Hạng biên đối xứng</em></span> của một ánh xạ song tuyến tính $T:A\times B\to C$, ký hiệu $\underline{\mathrm{rank}}\;T$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các ánh xạ song tuyến tính $T_\epsilon$ có hạng $R$ thoả mãn $T$ là giới hạn của $T_\epsilon$ khi $\epsilon \to 0$.
+<span style="color:#ff6340;"><em>Hạng biên</em></span> của một ánh xạ song tuyến tính $T:A\times B\to C$, ký hiệu $\underline{\mathrm{rank}}\;T$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các ánh xạ song tuyến tính $T_\epsilon$ có hạng $R$ thoả mãn $T$ là giới hạn của $T_\epsilon$ khi $\epsilon \to 0$.
 
 :::hint[<span style="color:#12a4d9;"> **Hạng biên của đa thức bậc ba** </span>]
 Đa thức $P=x^3+3x^y$ ở trên có hạng biên đối xứng $2$ và hạng đối xứng $3$.
