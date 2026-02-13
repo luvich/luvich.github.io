@@ -94,6 +94,35 @@ Với ánh xạ tuyến tính $f:A\to B$ thì "rank = rank hàng = rank cột", 
 Đối với ánh xạ song tuyến tính $f:A\times B\to C$ thì rank của $f$ nói chung lớn hơn $\max\{\dim A, \dim B, \dim C\}$ và "hầu hết" các ánh xạ song tuyến tính thì không đạt được rank tối đa.
 :::
 
+## Hạng và hạng biên
+### Hạng đối xứng
+Cho $P$ là một đa thức thuần nhất $n$ biến bậc $d$. Ta luôn có thể viết $P$ dưới dạng tổng của các luỹ thừa bậc $d$.
+:::hint[<span style="color:#12a4d9;"> **Đa thức bậc hai** </span>]
+Đa thức bậc hai $p(x)=ax^2+bx+c$ luôn có thể được viết dưới dạng $(\alpha x+\beta)^2 + (\gamma x + \delta)^2$. Hơn nữa ta có thể đưa một đa thức về dạng thuần nhất, bằng cách thêm một biến mới $y$. Nếu bậc cao nhất của các đơn thức xuất hiện trong một đa thức là $d$, thì ta nhân mỗi đơn thức trong biểu thức với một lũy thừa thích hợp của $y$ sao cho đơn thức đó có bậc bằng $d$. Chẳng hạn, $p(x,y)=(\alpha x+\beta y)^2 + (\gamma x + \delta y)^2$.
+:::
+
+<span style="color:#ff6340;"><em>Hạng đối xứng</em></span> của một đa thức thuần nhất $P$, ký hiệu $\mathrm{srank}\; P$, là số $R$ nhỏ nhất sao cho $P$ được biểu diễn thành tổng của $R$ luỹ thừa bậc $d$.
+
+### Hạng biên
+:::hint[<span style="color:#12a4d9;"> **Đa thức bậc ba** </span>]
+Một đa thức thuần nhất hai biến bậc ba tổng quát có thể được viết dưới dạng tổng của hai lập phương, nhưng không phải mọi đa thức bậc ba đều là một lập phương hoặc là tổng của hai lập phương.
+
+Ví dụ, $P=x^3+3x^2y$. Rõ ràng $P$ không là tổng của hai lập phương (không tìm được các số $s,t,u,v$ sao cho $P=(sx+ty)^3+(ux+vy)^3$). Tuy nhiên $P$ là giới hạn của các đa thức $P_\epsilon$ khi $\epsilon \to 0$, trong đó $P_\epsilon$ được viết thành tổng của hai lập phương
+$$
+P_\epsilon \coloneqq \frac{1}{\epsilon}\big((\epsilon-1)x^3+(x+\epsilon y)^3\big)
+$$
+(by Terracini).
+:::
+
+<span style="color:#ff6340;"><em>Hạng biên đối xứng</em></span> của một đa thức thuần nhất $P$, ký hiệu $\underline{\mathrm{srank}}\;P$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các đa thức $P_\epsilon$ có hạng $R$ thoả mãn $P$ là giới hạn của $P_\epsilon$ khi $\epsilon \to 0$.
+
+<span style="color:#ff6340;"><em>Hạng biên đối xứng</em></span> của một ánh xạ song tuyến tính $T:A\times B\to C$, ký hiệu $\underline{\mathrm{rank}}\;T$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các ánh xạ song tuyến tính $T_\epsilon$ có hạng $R$ thoả mãn $T$ là giới hạn của $T_\epsilon$ khi $\epsilon \to 0$.
+
+:::hint[<span style="color:#12a4d9;"> **Hạng biên của đa thức bậc ba** </span>]
+Đa thức $P=x^3+3x^y$ ở trên có hạng biên đối xứng $2$ và hạng đối xứng $3$.
+:::
+
+
 ## Không gian các tensor và các đa tạp bên trong chúng
 Ký hiệu $A^*\otimes B$ là không gian vector các ánh xạ tuyến tính $A\to B$. Tập hợp các ánh xạ tuyến tính có hạng không quá $r$ được ký hiệu bởi $\hat \sigma_r = \hat \sigma_{r, A^*\otimes B}$. Đây là tập nghiệm của họ các đa thức thuần nhất trên không gian vector $A^*\otimes B$. Cụ thể, nếu ta chọn các cơ sở và đồng nhất $A^*\otimes B$ với không gian các ma trận $\dim A \times \dim B$, thì $\hat \sigma_r$ là tập hợp các ma trận có các định thức con kích thước $(r+1)\times (r+1)$ bằng $0$. Điều này nghĩa là luôn có một cách để test liệu một ánh xạ tuyến tính có hạng tối đa $r$ hay không.
 
