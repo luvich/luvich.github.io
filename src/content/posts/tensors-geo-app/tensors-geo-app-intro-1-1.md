@@ -81,11 +81,11 @@ Với một ánh xạ song tuyến tính $T: A\times B \to C$, ta có thể bi�
 
 $$
     T(\bm{a},\bm{b})=\sum_{r=1}^R\alpha^r(\bm{a})\beta^r(\bm{b})\bm{c}_r,
-    \tag{1}
+    \tag{1.1.1}
 $$
 trong đó $\alpha^r\in A^*, \beta\in B^*$ và $\bm{c}_r\in C$.
 
-Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $T$ và được ký hiệu bởi $\mathrm{rank}\; T$.
+Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1.1.1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $T$ và được ký hiệu bởi $\mathrm{rank}\; T$.
 
 :::hint[<span style="color:#12a4d9;"> **Khác biệt giữa ánh xạ tuyến tính và song tuyến tính** </span>]
 Với ánh xạ tuyến tính $f:A\to B$ thì "rank = rank hàng = rank cột", tức là $\mathrm{rank}\; f=\dim f(A) = \dim f^\top (B^*)$, và $\mathrm{rank}\; f \leq \min\{\dim A, \dim B\}$. Với "hầu hết" các ánh xạ tuyến tính đều đạt được rank cực đại</br>

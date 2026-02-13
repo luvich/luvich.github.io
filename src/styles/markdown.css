@@ -190,3 +190,15 @@
     color: var(--primary);
     font-weight: 600;
 }
+
+.figure {
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+.figure figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #6b7280;
+}
