@@ -18,7 +18,7 @@ draft: false
 | $\bm{A}, \bm{B}, \bm{C}$ | Ma trận | $ \bm{A} \in \Bbb{K}^{I\times R} $ |
 | $\cal{T}$ | Tensor | ${\cal{T}} \in \Bbb{K}^{I\times J\times K}$ |
 | $A,B,C,U,V$ | Không gian vector | $\bm{v}\in V$ |
-| $A^*,B^*, V^*$ | Không gian vector đối ngẫu |  |
+| $A^*,B^*, V^*$ | Không gian vector đối ngẫu | $\{f:A\to \Bbb C \text{ tuyến tính}\}$ |
 | $\alpha, \beta$ | Phiếm hàm tuyến tính | $\alpha \in A^*$ |
 | $X,Y$ | Đa tạp |  |
 | $x,y,z,p,q$ | Điểm trong đa tạp | $x\in X$ |
@@ -27,3 +27,5 @@ draft: false
 | $ \mathrm{srank} $ | Hạng đối xứng | [Phần 1, Mục 3.1]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-đối-xứng ) |
 | $ \underline{\mathrm{rank}} $ | Hạng biên | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |
 | $ \underline{\mathrm{srank}} $ | Hạng biên đối xứng | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |
+| $\circ$ | Phép hợp thành các ánh xạ | $f\circ g$ |
+
