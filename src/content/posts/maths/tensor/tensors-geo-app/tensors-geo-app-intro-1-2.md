@@ -1,7 +1,7 @@
 ---
-title: 'Tensors: Hình học và Ứng dụng - P1.2 - Giới thiệu - Phân rã tensor'
+title: 'Tensors: Hình học và Ứng dụng - P1.2 - Giới thiệu - Ứng dụng của phân rã tensor'
 published: 2026-02-13
-description: Ứng dụng của phân rã tensor
+description: Một số ví dụ thực tế về ứng dụng của phân rã tensor
 image: "./landsberg.jpg"
 tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application, Đại số, Algebra, Đại số tuyến tính, Linear Algebra, Đại số đa tuyến tính, Multilinear Algebra, Tensor Decomposition, Phân rã tensor]
 category: Tensor
