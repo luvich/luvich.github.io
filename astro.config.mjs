@@ -24,7 +24,7 @@ import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 import { HintComponent } from "./src/plugins/rehype-component-hint.mjs";
-
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
@@ -102,6 +102,7 @@ export default defineConfig({
 			}
 		}),
 		svelte(),
+		mdx(),
 		sitemap(),
 	],
 	markdown: {
