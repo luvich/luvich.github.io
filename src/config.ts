@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/sky-blue.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/bannertet.jpeg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -73,11 +73,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:wordpress",
 			url: "https://hoathekiet.wordpress.com",
 		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/luvich",
-		},
+		// {
+		// 	name: "GitHub",
+		// 	icon: "fa6-brands:github",
+		// 	url: "https://github.com/luvich",
+		// },
 	],
 };
 

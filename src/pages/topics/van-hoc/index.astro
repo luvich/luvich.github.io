@@ -6,7 +6,7 @@ import { getSortedPostsList } from "@utils/content-utils";
 const posts = await getSortedPostsList();
 
 // lọc theo category
-const filtered = posts.filter((p) => p.data?.category === "Tiểu thuyết");
+const filtered = posts.filter((p) => p.data?.category === "Dịch hiên");
 
 // (tuỳ chọn) debug nhanh:
 console.log("posts:", posts.length);
