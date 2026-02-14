@@ -191,4 +191,3 @@ Nếu $Z \subset W$ là một tập con và nhóm $G$ tác động lên $W$,
 ta nói $Z$ là <span style="color:#ff6e40;"><em>bất biến</em></span> dưới tác động của $G$ nếu
 $g \cdot \bm z \in Z$
 với mọi $\bm z \in Z$ và $g \in G$.
-
