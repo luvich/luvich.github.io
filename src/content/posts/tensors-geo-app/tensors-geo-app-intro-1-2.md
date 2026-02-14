@@ -11,9 +11,9 @@ draft: false
 
 Một ví dụ của bài toán phân rã tensor đó là viết một ánh xạ song tuyến tính $f:A\times B \to C$ dưới dạng tổng của các ánh xạ có dạng $(\bm{a},\bm{b})\mapsto \alpha(\bm{a})\beta(\bm{b})\bm{c}$ trong đó $\alpha \in A^*$, $\beta\in B^*$, $\bm{a}\in A$, $\bm{b}\in B$, $\bm{c}\in C$.
 
-Trong các ứng dụng, người ta thu thập dữ liệu được sắp xếp dưới dạng một mảng đa chiều $T$, được xem như một tensor có hạng $R$ nhỏ. Những vấn đề ta phải đối mặt là:
+Trong các ứng dụng, người ta thu thập dữ liệu được sắp xếp dưới dạng một mảng đa chiều $\cal T$, được xem như một tensor có hạng $R$ nhỏ. Những vấn đề ta phải đối mặt là:
 - xác định giá trị thích hợp của $R$, và/hoặc
-- tìm một tensor hạng $R$ "xấp xỉ" với $T$.
+- tìm một tensor hạng $R$ "xấp xỉ" với $\cal T$.
 
 :::hint[<span style="color:#12a4d9;"> **Bài toán tách nguồn (source separation)** </span>]
 Một bài toán trung tâm trong xử lý tín hiệu là tách nguồn, chẳng hạn “bài toán bữa tiệc cocktail”: trong một căn phòng có nhiều người đang trò chuyện. Nhiều thiết bị thu âm được đặt trong phòng để ghi lại các cuộc hội thoại. Tuy nhiên, những gì chúng ghi nhận không phải là từng cuộc trò chuyện riêng lẻ, mà là sự pha trộn của tất cả các cuộc trò chuyện. Mục tiêu là khôi phục lại nội dung mà từng người đang nói. Đáng chú ý là việc "tách trộn" này thường có thể thực hiện được bằng cách sử dụng phân rã CP. Bài toán này liên hệ với những vấn đề rộng hơn trong thống kê.
@@ -37,10 +37,12 @@ Vì thế, dữ liệu thu được là một mảng ba chiều kích thước $
 
 
 Trong các cơ sở, nếu $\{\bm{e}_i\}$ là một cơ sở của $\Bbb C^I$, $\{\bm{h}_j\}$ là một cơ sở của $\Bbb C^J$, và $\{\bm{g}_i\}$ là một cơ sở của $\Bbb C^K$ thì 
-$$T=\sum_{ijk} T_{ijk}\bm{e}_i \otimes \bm{h}_j \otimes \bm{g}_k.$$
+$$
+    \mathcal{T}=\sum_{ijk} \mathcal{T}_{ijk}\bm{e}_i \otimes \bm{h}_j \otimes \bm{g}_k.
+$$
 Mục tiêu đầu tiên là xác định $R$ sao cho 
 $$
-    T \approx \sum_{r}^R \bm{a}_r \otimes \bm{b}_r \otimes \bm{c}_r,
+    \mathcal{T} \approx \sum_{r}^R \bm{a}_r \otimes \bm{b}_r \otimes \bm{c}_r,
 $$
 trong đó mỗi khối $r$ biểu diễn một chất.
 
@@ -48,13 +50,13 @@ Viết $\bm{a}_r = a_{i,r}\bm{e}_i$, khi đó $a_{i,r}$ là nồng độ của c
 
 :::hint[<span style="color:#12a4d9;"> **Phân rã tensor với dữ liệu thực** </span>]
 
-Dữ liệu thu được tất nhiên có nhiễu, vì vậy $T$ trên thực tế sẽ có hạng tổng quát (generic rank), nhưng sẽ tồn tại một tensor hạng rất thấp $\tilde T$ xấp xỉ tốt $T$. (Đối với mọi không gian tensor phức, tồn tại một giá trị hạng xuất hiện với xác suất bằng một; giá trị này được gọi là *hạng tổng quát*.) Tuy nhiên, không có một metric tự nhiên nào gắn liền với dữ liệu, nên ý nghĩa chính xác của "xấp xỉ" ở đây không hoàn toàn rõ ràng.
+Dữ liệu thu được tất nhiên có nhiễu, vì vậy $\cal T$ trên thực tế sẽ có hạng tổng quát (generic rank), nhưng sẽ tồn tại một tensor hạng rất thấp $\widetilde{\mathcal{T}}$ xấp xỉ tốt $\cal T$. (Đối với mọi không gian tensor phức, tồn tại một giá trị hạng xuất hiện với xác suất bằng một; giá trị này được gọi là *hạng tổng quát*.) Tuy nhiên, không có một metric tự nhiên nào gắn liền với dữ liệu, nên ý nghĩa chính xác của "xấp xỉ" ở đây không hoàn toàn rõ ràng.
 Trong <a href="https://books.google.com.sg/books?hl=en&lr=&id=3cAxU0yH4fUC&oi=fnd&pg=PR5&dq=Multi-way+analysis:+Applications+in+the+chemical+sciences&ots=p8dbzRrIYc&sig=C08Yb881cKPluudk6UF6hKH_hms&redir_esc=y#v=onepage&q=Multi-way%20analysis%3A%20Applications%20in%20the%20chemical%20sciences&f=false" target="_blank" rel="noopener noreferrer">Multi-way analysis</a>, người ta tiến hành như sau để xác định $R$.
 
-Trước hết, giả sử $R$ là khá nhỏ ($\leq 7$). Sau đó, với mỗi $r$, $1\leq r \leq 7$, ta giả định $r=R$ và áp dụng một thuật toán số nhằm tìm $r$ *thành phần* (tức là các tensor hạng-1) mà $\tilde T$ có thể được biểu diễn thành tổng của chúng. Những giá trị $r$ mà thuật toán không hội tụ nhanh sẽ bị loại bỏ. (Các tác giả lưu ý rằng quy trình này không được chứng minh chặt chẽ về mặt toán học, nhưng dường như hoạt động tốt trong thực tế; trong ví dụ đang xét, các giá trị $r$ bị loại đều quá lớn.)
+Trước hết, giả sử $R$ là khá nhỏ ($\leq 7$). Sau đó, với mỗi $r$, $1\leq r \leq 7$, ta giả định $r=R$ và áp dụng một thuật toán số nhằm tìm $r$ *thành phần* (tức là các tensor hạng-1) mà $\widetilde{\mathcal{T}}$ có thể được biểu diễn thành tổng của chúng. Những giá trị $r$ mà thuật toán không hội tụ nhanh sẽ bị loại bỏ. (Các tác giả lưu ý rằng quy trình này không được chứng minh chặt chẽ về mặt toán học, nhưng dường như hoạt động tốt trong thực tế; trong ví dụ đang xét, các giá trị $r$ bị loại đều quá lớn.)
 Đối với các giá trị $r$ còn lại, người ta xem xét các tensor thu được để đánh giá xem chúng có hợp lý về mặt vật lý hay không. Điều này cho phép loại bỏ các giá trị $r$ quá nhỏ. Trong ví dụ, cuối cùng còn lại $r=4,5$.
 
-Bây giờ giả sử $R$ đã được xác định. Vì $R$ tương đối nhỏ, nên (bỏ qua những trường hợp suy biến tầm thường) biểu diễn của $\tilde T$ dưới dạng tổng của $R$ tensor hạng-1 là duy nhất. Do đó, bằng cách thực hiện phân rã của $\tilde T$, ta có thể khôi phục nồng độ của từng chất trong số $R$ chất trong mỗi dung dịch thông qua việc xác định các vectơ $\bm{a}_r$, cũng như các phổ kích thích và phát xạ riêng lẻ bằng cách xác định các vectơ $\bm{b}_r, \bm{c}_r$.
+Bây giờ giả sử $R$ đã được xác định. Vì $R$ tương đối nhỏ, nên (bỏ qua những trường hợp suy biến tầm thường) biểu diễn của $\widetilde{\mathcal{T}}$ dưới dạng tổng của $R$ tensor hạng-1 là duy nhất. Do đó, bằng cách thực hiện phân rã của $\widetilde{\mathcal{T}}$, ta có thể khôi phục nồng độ của từng chất trong số $R$ chất trong mỗi dung dịch thông qua việc xác định các vectơ $\bm{a}_r$, cũng như các phổ kích thích và phát xạ riêng lẻ bằng cách xác định các vectơ $\bm{b}_r, \bm{c}_r$.
 :::
 
 ::::hint[<span style="color:#12a4d9;"> **Cumulant** </span>]
@@ -147,7 +149,7 @@ Big Brother muốn xác định vị trí các trạm phát thanh lậu tại Ha
 Để thực hiện điều này, các ăng-ten được bố trí tại nhiều địa điểm khác nhau nhằm thu nhận tín hiệu vô tuyến. 
 Làm thế nào có thể xác định vị trí các nguồn phát chỉ từ những tín hiệu thu được tại các ăng-ten?
 
-Ký hiệu $y^j(t)$ là tín hiệu đo được tại ăng-ten thứ $j$ vào thời điểm $t$. 
+Ký hiệu $y^j(t)$ là tín hiệu đo được tại ăng-ten thứ $j$ vào thời điểm $\cal T$. 
 Giả sử tồn tại một quan hệ có dạng
 $$
     \begin{bmatrix}
@@ -178,7 +180,7 @@ hay ta có thể viết dưới dạng
 $$
     \bm{y}=\bm{A}\bm{x}+\bm{v}. \tag{1.2.1}
 $$
-Ở đây $\bm{A}$ là một ma trận $m \times r$ cố định, $\bm{v}=\bm{v}(t)\in \Bbb R^m$ là một hàm vector biểu diễn nhiễu và $\bm{x}(t)=(x^1(t),\ldots,x^R(t))^\top$ biểu diễn các hàm độc lập thống kê theo $t$ tương ứng với các vị trí nguồn. Các $v^i(t)$ được giả sử thỏa các điều kiện sau:
+Ở đây $\bm{A}$ là một ma trận $m \times r$ cố định, $\bm{v}=\bm{v}(t)\in \Bbb R^m$ là một hàm vector biểu diễn nhiễu và $\bm{x}(t)=(x^1(t),\ldots,x^R(t))^\top$ biểu diễn các hàm độc lập thống kê theo $\cal T$ tương ứng với các vị trí nguồn. Các $v^i(t)$ được giả sử thỏa các điều kiện sau:
 - là các biến ngẫu nhiên độc lập và độc lập với các $x^j(t)$;
 - $\mathbb{E}[v_i] = 0$;
 - các moment $\mathbb{E}[v_{i_1}\cdots v_{i_p}]$ bị chặn trên bởi một hằng số nhỏ.
@@ -239,7 +241,7 @@ và người ta thường xấp xỉ một hàm $n$ biến bằng một tổng h
 
 Có bốn vấn đề chính cần xem xét khi làm việc với phân rã tensor: *sự tồn tại*, *tính duy nhất*, *thực hiện phân rã* và *nhiễu*.
 
-1. **Sự tồn tại.** Trong nhiều bài toán phân rã tensor, vấn đề đầu tiên cần giải quyết là xác định hạng của tensor $T$ đang xét. Trong các trường hợp có các phương trình tường minh cho các tensor có hạng biên $R$, nếu $T$ thỏa mãn các phương trình đó, thì với xác suất bằng một, $T$ có hạng không quá $R$. (Đối với các tensor đối xứng có hạng nhỏ, luôn đúng rằng hạng không quá $R$)
+1. **Sự tồn tại.** Trong nhiều bài toán phân rã tensor, vấn đề đầu tiên cần giải quyết là xác định hạng của tensor $\cal T$ đang xét. Trong các trường hợp có các phương trình tường minh cho các tensor có hạng biên $R$, nếu $\cal T$ thỏa mãn các phương trình đó, thì với xác suất bằng một, $\cal T$ có hạng không quá $R$. (Đối với các tensor đối xứng có hạng nhỏ, luôn đúng rằng hạng không quá $R$)
 
 2. **Tính duy nhất.** Trong các bài toán xuất phát từ phổ học (spectroscopy) và xử lý tín hiệu (signal processing), người ta cũng quan tâm đến tính duy nhất của phân rã. Nếu hạng đủ nhỏ, tính duy nhất được đảm bảo với xác suất bằng một Hơn nữa, có các kiểm tra tường minh mà người ta có thể thực hiện trên bất kỳ tensor nào để xác nhận tính duy nhất.
 

@@ -27,7 +27,7 @@ Một ánh xạ $f:\Bbb{C}^n\to \Bbb{C}^m$ được gọi là <span style="color
 ### Không gian vector đối ngẫu
 Cho $V$ là một không gian vector. Ký hiệu
 $$
-A^* \coloneqq \left\lbrace f: V\to \Bbb{C} \mid f \text{ tuyến tính} \right\rbrace
+V^* \coloneqq \left\lbrace f: V\to \Bbb{C} \mid f \text{ tuyến tính} \right\rbrace
 $$
 là <span style="color:#ff6e40;"><em>không gian vector đối ngẫu </em></span> của $V$.
 
@@ -76,16 +76,16 @@ $$
 là một ánh xạ song tuyến tính.
 :::
 
-Với một ánh xạ song tuyến tính $T: A\times B \to C$, ta có thể biểu diễn nó dưới dạng tổng
+Với một ánh xạ song tuyến tính $\mathcal{T}: A\times B \to C$, ta có thể biểu diễn nó dưới dạng tổng
 <div id="eq-rank1"></div>
 
 $$
-    T(\bm{a},\bm{b})=\sum_{r=1}^R\alpha^r(\bm{a})\beta^r(\bm{b})\bm{c}_r,
+    \mathcal{T}(\bm{a},\bm{b})=\sum_{r=1}^R\alpha^r(\bm{a})\beta^r(\bm{b})\bm{c}_r,
     \tag{1.1.1}
 $$
 trong đó $\alpha^r\in A^*, \beta\in B^*$ và $\bm{c}_r\in C$.
 
-Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1.1.1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $T$ và được ký hiệu bởi $\mathrm{rank}\; T$.
+Số $R$ nhỏ nhất trong tất cả các biểu diễn ở [(1.1.1)](#eq-rank1) được gọi là <span style="color:#ff6e40;"><em>hạng</em></span> của $\cal T$ và được ký hiệu bởi $\mathrm{rank}\ \cal T$.
 
 :::hint[<span style="color:#12a4d9;"> **Khác biệt giữa ánh xạ tuyến tính và song tuyến tính** </span>]
 Với ánh xạ tuyến tính $f:A\to B$ thì "rank = rank hàng = rank cột", tức là $\mathrm{rank}\; f=\dim f(A) = \dim f^\top (B^*)$, và $\mathrm{rank}\; f \leq \min\{\dim A, \dim B\}$. Với "hầu hết" các ánh xạ tuyến tính đều đạt được rank cực đại</br>
@@ -116,7 +116,7 @@ $$
 
 <span style="color:#ff6340;"><em>Hạng biên đối xứng</em></span> của một đa thức thuần nhất $P$, ký hiệu $\underline{\mathrm{srank}}\;P$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các đa thức $P_\epsilon$ có hạng $R$ thoả mãn $P$ là giới hạn của $P_\epsilon$ khi $\epsilon \to 0$.
 
-<span style="color:#ff6340;"><em>Hạng biên</em></span> của một ánh xạ song tuyến tính $T:A\times B\to C$, ký hiệu $\underline{\mathrm{rank}}\;T$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các ánh xạ song tuyến tính $T_\epsilon$ có hạng $R$ thoả mãn $T$ là giới hạn của $T_\epsilon$ khi $\epsilon \to 0$.
+<span style="color:#ff6340;"><em>Hạng biên</em></span> của một ánh xạ song tuyến tính $\mathcal{T}:A\times B\to C$, ký hiệu $\underline{\mathrm{rank}}\ \cal T$, là số $R$ nhỏ nhất sao cho tồn tại một dãy các ánh xạ song tuyến tính $\cal T_\epsilon$ có hạng $R$ thoả mãn $\cal T$ là giới hạn của $\cal T_\epsilon$ khi $\epsilon \to 0$.
 
 :::hint[<span style="color:#12a4d9;"> **Hạng biên của đa thức bậc ba** </span>]
 Đa thức $P=x^3+3x^y$ ở trên có hạng biên đối xứng $2$ và hạng đối xứng $3$.
@@ -132,6 +132,6 @@ Ký hiệu $A^*\otimes B^* \otimes C$ là không gian vector các ánh xạ song
 
 Tập hợp các ánh xạ song tuyến tính có hạng không vượt $r$ lại KHÔNG phải một đa tạp đại số. Tuy nhiên tập hợp các ánh xạ song tuyến tính có hạng biên không quá $r$ là một đa tạp đại số. Tập hợp các ánh xạ song tuyến tính $f:A\times B\to C$ với hạng biên không quá $r$ được ký hiệu bởi $\hat \sigma_r = \hat \sigma_{r,A^*\otimes B^*\otimes C}$. Đây là tập nghiệm của một họ các đa thức thuần nhất trên không gian vector $A^*\otimes B^*\otimes C$.
 
-Về nguyên tắc, để test một ánh xạ song tuyến tính $T$ có thuộc vào $\hat \sigma_r$ hay không, ta có thể tính giá trị của các đa thức xác định $\hat \sigma_r$ tại $T$ và kiểm tra xem chúng có bằng $0$ hay không. Tuy nhiên, khác với ánh xạ tuyến tính, việc tính các đa thức xác định $\hat \sigma_{r, A^*\otimes B^* \otimes C}$ nói chung còn để mở.
+Về nguyên tắc, để test một ánh xạ song tuyến tính $\cal T$ có thuộc vào $\hat \sigma_r$ hay không, ta có thể tính giá trị của các đa thức xác định $\hat \sigma_r$ tại $\cal T$ và kiểm tra xem chúng có bằng $0$ hay không. Tuy nhiên, khác với ánh xạ tuyến tính, việc tính các đa thức xác định $\hat \sigma_{r, A^*\otimes B^* \otimes C}$ nói chung còn để mở.
 
 Tổng quát, với các không gian vector $A_1,\ldots,A_n$, ta có thể xét các <span style="color:#ff6340;"><em>ánh xạ đa tuyến tính</em></span> $A_1\times \cdots \times A_n\to\Bbb C$. Tập hợp các ánh xạ đa tuyến tính này lập thành một không gian vector. Đây là một không gian các tensor và được ký hiệu bởi $A_1^*\otimes \cdots\otimes A_n^*$. Hạng của mỗi phần tử trong $A_1^*\otimes \cdots\otimes A_n^*$ được định nghĩa tương tự như ánh xạ song tuyến tính. Trong các cơ sở tương ứng, đây là tập hợp các mảng $\dim A_1 \times \cdots\times \dim A_n$ chiều.
