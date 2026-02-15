@@ -3,8 +3,8 @@ title: 'Hiểm hoạ xanh'
 published: 2026-02-14
 description: Vừa đọc vừa dịch nên chả biết nội dung mà mô tả
 image: "./title2.jpeg"
-tags: [Dịch hiên, Dịch, Văn học, Tiểu thuyết, Novel, Roman, Le Péril bleu, Hiểm hoạ xanh]
-category: Dịch hiên
+tags: [Dịch dả dô dị, Dịch, Văn học, Tiểu thuyết, Novel, Roman, Le Péril bleu, Hiểm hoạ xanh, Maurice Renard]
+category: Dịch dả dô dị
 draft: false
 ---
 
