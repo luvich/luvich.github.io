@@ -28,4 +28,5 @@ draft: false
 | $ \underline{\mathrm{rank}} $ | Hạng biên | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |
 | $ \underline{\mathrm{srank}} $ | Hạng biên đối xứng | [Phần 1, Mục 3.2]( /posts/tensors-geo-app/tensors-geo-app-intro-1/#hạng-biên ) |
 | $\circ$ | Phép hợp thành các ánh xạ | $f\circ g$ |
+| $\mathcal{S}^d(V^*)$| Không gian vector các đa thức thuần nhất bậc $d$ trên $V$ | [Phần 2, Mục 2.2.1]( /posts/tensors-geo-app/tensors-geo-app-multialg-2-1/#nhóm-glvmathrmglvglv ) |
 

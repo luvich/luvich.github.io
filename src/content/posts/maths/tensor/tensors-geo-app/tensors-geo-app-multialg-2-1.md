@@ -1,6 +1,7 @@
 ---
 title: 'Tensors: Hình học và Ứng dụng - P2.1 - Đại số đa tuyến tính - Nhắc lại về đại số tuyến tính, nhóm và biểu diễn'
 published: 2026-02-14
+updated: 2026-03-01
 description: Một số kết quả trong đại số tuyến tính
 image: "./landsberg.jpg"
 tags: [Toán, Tensor, Hình học, Ứng dụng, Mathematics, Geometry, Application, Đại số, Algebra, Đại số tuyến tính, Linear Algebra, Đại số đa tuyến tính, Multilinear Algebra, Tensor Decomposition, Phân rã tensor]
@@ -177,6 +178,22 @@ Với $g \in \mathrm{GL}(V)$ và $\bm v \in V$, ký hiệu
 $g \cdot \bm v$ hoặc $ g(\bm v)$
 cho tác động đó.
 
+:::hint[**Ví dụ**]
+$g\in \mathrm{GL}(V)$ tác động lên
+1. $V^*$ bởi $\alpha \mapsto \alpha \circ g^{-1}$.
+2. $\operatorname{End}(V)$ bởi $f\mapsto g \circ f$ hoặc bởi $f\mapsto g \circ f \circ g^{-1}$
+3. $\mathcal S^d V^*$ bởi $P \mapsto g\cdot P$, trong đó $g\cdot P(\bm{v}) = P(g^{-1}\bm{v})$
+
+Các ví dụ này cho ta các đồng cấu nhóm
+$
+\mathrm{GL}(V) \to \mathrm{GL}(V^*), \;
+\mathrm{GL}(V) \to \mathrm{GL}(\mathrm{End}(V)) 
+$
+và
+$
+\mathrm{GL}(V) \to \mathrm{GL}(\mathcal S^d V^*)
+$.
+:::
 
 ### Mô-đun và mô-đun con
 Nếu $W$ là một $G$-môđun và tồn tại một không gian con tuyến tính
