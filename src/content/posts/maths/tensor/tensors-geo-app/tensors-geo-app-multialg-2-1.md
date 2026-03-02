@@ -130,7 +130,7 @@ $
 ta thu được một sự đồng nhất giữa nhóm các tự đẳng cấu khả nghịch của $V$,
 ký hiệu $\mathrm{GL}(V)$, và tập hợp các cơ sở của $V$. -->
 
-## 2.2. Nhóm và biểu diễn
+## Nhóm và biểu diễn
 
 Chúng ta là khai thác tính đối xứng để hiểu rõ hơn về tensor. Tập hợp các đối xứng của một đối tượng
 bất kỳ tạo thành một *nhóm*, và việc hiện thực hóa (realization) một nhóm như một nhóm các đối xứng được gọi là một *biểu diễn* (representation) của nhóm đó.
@@ -182,7 +182,7 @@ cho tác động đó.
 $g\in \mathrm{GL}(V)$ tác động lên
 1. $V^*$ bởi $\alpha \mapsto \alpha \circ g^{-1}$.
 2. $\operatorname{End}(V)$ bởi $f\mapsto g \circ f$ hoặc bởi $f\mapsto g \circ f \circ g^{-1}$
-3. $\mathcal S^d V^*$ bởi $P \mapsto g\cdot P$, trong đó $g\cdot P(\bm{v}) = P(g^{-1}\bm{v})$
+3. $\mathcal S^d V^*$ bởi $P \mapsto g\cdot P$, trong đó $g\cdot P(\bm{v}) = P(g^{-1}\bm{v})$ và $\mathcal S^d V^*$ là không gian các đa thức thuần nhất bậc $d$ trên $V$.
 
 Các ví dụ này cho ta các đồng cấu nhóm
 $

@@ -38,6 +38,7 @@ không phụ thuộc vào việc chọn cơ sở cho ánh xạ tuyến tính và
 :::
 
 ## Định nghĩa
+### Không gian các ánh xạ tuyến tính
 Ký hiệu $V^*\otimes W$ cho không gian vector các ánh xạ tuyến tính $V \to W$. Do đó, $V\otimes W$ ký hiệu không gian các ánh xạ tuyến tính $V^* \to W$.
 
 Không gian $V^*\otimes W$  có thể được hiểu theo 4 cách sau:
@@ -78,3 +79,67 @@ với $(\bm{v},\beta)\mapsto \beta(f(\bm{v}))$. Khi chọn cơ sở, ta được
 Các phần tử hạng-1 trong $V \otimes W$ sinh ra toàn bộ $V \otimes W$. Cụ thể, nếu $(\bm v_i)$ là cơ sở của $V$ và $(\bm w_s)$ là cơ sở của $W$, khi đó các tensor $\bm v_i \otimes \bm w_s$ tạo thành một cơ sở của $V \otimes W$.
 :::
 
+### Tích tensor và tensor
+Cho $V_1,\ldots, V_k$ là các không gian vector. Một hàm 
+$$
+    f:V_1\times \cdots \times V_k \to \Bbb C
+$$
+là <span style="color:#ff6e40;"><em>đa tuyến tính</em></span> nếu nó tuyến tính theo từng biến $V_j$.</br>
+Không gian các hàm đa tuyến tính như vậy được ký hiệu là $V_1^* \otimes \cdots \otimes V_k^*$ và được gọi là <span style="color:#ff6e40;"><em>tích tensor</em></span> của các không gian vector $V_1^*,\ldots, V_k^*$.</br>
+Các phần tử $\mathcal{T} \in V_1^* \otimes \cdots \otimes V_k^*$ được gọi là các <span style="color:#ff6e40;"><em>tensor</em></span>.</br>
+Số nguyên $k$ được gọi là <span style="color:#ff6e40;"><em>bậc tensor</em></span> (order) của $\cal T$.</br>
+Bộ số $(\dim V_1, \ldots, \dim V_k)$ được gọi là <span style="color:#ff6e40;"><em>chiều</em></span> của $\mathcal T$.
+
+:::hint[**Tổng quát**]
+Một hàm
+$$
+    f : V_1 \times \cdots \times V_k \to W
+$$
+được gọi là <span style="color:#ff6e40;"><em>đa tuyến tính</em></span> nếu nó tuyến tính theo từng biến $V_j$.
+Không gian các hàm đa tuyến tính như vậy được ký hiệu là
+$$
+V_1^* \otimes V_2^* \otimes \cdots \otimes V_k^* \otimes W
+$$
+và được gọi là <span style="color:#ff6e40;"><em>tích tensor</em></span> của các không gian
+$V_1^*, \dots, V_k^*, W$.
+:::
+
+Ký hiệu
+$$
+\widehat{V}_j := 
+V_1 \otimes \cdots \otimes V_{j-1} 
+\otimes V_{j+1} \otimes \cdots \otimes V_n.
+$$
+
+Với $\mathcal T \in V_1 \otimes \cdots \otimes V_n$, ký hiệu
+$
+\mathcal T(V_j^*) \subset \widehat{V}_j
+$
+là ảnh của ánh xạ tuyến tính
+$
+V_j^* \longrightarrow \widehat{V}_j.
+$
+
+### Hạng đa tuyến tính
+
+Định nghĩa <span style="color:#ff6e40;"><em>hạng đa tuyến tính</em></span> (multilinear rank), đôi khi còn gọi là
+<span style="color:#ff6e40;"><em>hạng song tuyến</em></span> (duplex rank) hoặc <span style="color:#ff6e40;"><em>hạng Tucker</em></span> (Tucker rank),
+của $\mathcal T \in V_1 \otimes \cdots \otimes V_n$ là bộ $n$-số tự nhiên
+$$
+\operatorname{mlrank}(T)
+:=
+\big(
+\dim T(V_1^*), \dots, \dim T(V_n^*)
+\big).
+$$
+
+
+Số $\dim\big(T(V_j^*)\big)$ đôi khi được gọi là hạng theo mode $j$
+(mode-$j$ rank) của $T$.
+
+Ký hiệu
+$$
+V^{\otimes k} := 
+\underbrace{V \otimes \cdots \otimes V}_{k \text{ bản sao}}
+$$
+là tích tensor của $k$ bản sao của $V$.
