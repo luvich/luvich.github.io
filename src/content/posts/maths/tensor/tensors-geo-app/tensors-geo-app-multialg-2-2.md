@@ -126,16 +126,16 @@ $
 <span style="color:#ff6e40;"><em>hạng song tuyến</em></span> (duplex rank) hoặc <span style="color:#ff6e40;"><em>hạng Tucker</em></span> (Tucker rank),
 của $\mathcal T \in V_1 \otimes \cdots \otimes V_n$ là bộ $n$-số tự nhiên
 $$
-\operatorname{mlrank}(T)
-:=
+\operatorname{mlrank}(\mathcal T)
+\coloneqq
 \big(
-\dim T(V_1^*), \dots, \dim T(V_n^*)
+\dim \mathcal T(V_1^*), \dots, \dim \mathcal T(V_n^*)
 \big).
 $$
 
 
-Số $\dim\big(T(V_j^*)\big)$ đôi khi được gọi là hạng theo mode $j$
-(mode-$j$ rank) của $T$.
+Số $\dim\big(\mathcal T(V_j^*)\big)$ được gọi là <span style="color:#ff6e40;"><em>hạng theo mode $j$</em></span> 
+(mode-$j$ rank) của $\cal T$.
 
 Ký hiệu
 $$
@@ -143,3 +143,314 @@ V^{\otimes k} :=
 \underbrace{V \otimes \cdots \otimes V}_{k \text{ bản sao}}
 $$
 là tích tensor của $k$ bản sao của $V$.
+
+:::hint[**Slices, fibers**]
+Ta có thể hình dung các tensor (khi đã chọn cơ sở)
+dưới dạng các <span style="color:#ff6e40;"><em>lát cắt</em></span> (slices).
+
+Giả sử $A$ có cơ sở $\bm a_1, \dots, \bm a_a$ và tương tự với $B, C$ (với $\dim A =a, \dim B =b, \dim C=c$).
+Cho
+$
+\mathcal T \in A \otimes B \otimes C,
+$
+khi đó theo các cơ sở đã chọn ta có thể viết
+$$
+\mathcal T = \mathcal T^{i,s,u} \, \bm a_i \otimes \bm b_s \otimes \bm c_u.
+$$
+
+Khi ấy ta lập một bảng hình hộp chữ nhật kích thước $a \times b \times c$
+với các phần tử là các hệ số $\cal T^{i,s,u}$.
+
+Khối này có thể được phân tích thành các <span style="color:#ff6e40;"><em>mode</em></span> hoặc các <span style="color:#ff6e40;"><em>lát cắt</em></span>.
+Chẳng hạn, ta có thể xem $\cal T$ như một họ gồm $a$ ma trận kích thước
+$b \times c$:
+$$
+(\cal T^{1,s,u}), \dots, (T^{a,s,u}),
+$$
+được gọi là các <span style="color:#ff6e40;"><em>lát cắt ngang</em></span> (horizontal slices).
+
+Hoặc ta có thể xem $T$ như một họ gồm $b$ ma trận
+$$
+(T^{i,1,u}), \dots, (T^{i,b,u}),
+$$
+được gọi là các <span style="color:#ff6e40;"><em>lát cắt bên</em></span> (lateral slices),
+
+hoặc như một họ gồm $c$ ma trận gọi là các <span style="color:#ff6e40;"><em>lát cắt trước</em></span> (frontal slices).
+
+<figure class="figure">
+  <img src="/images/tensors-geo-app/slices.jpg" alt="slices" />
+  <figcaption>
+    Các lát cắt của một tensor.
+    <a href="https://www.math.ucdavis.edu/~saito/data/tensor/kolda-bader_tensor-decomp-siamrev.pdf" target="_blank" rel="noopener noreferrer">Kolda, Bader</a>.
+  </figcaption>
+</figure>
+
+Khi cố định hai chỉ số, vector thu được trong không gian thứ ba
+được gọi là một <span style="color:#ff6e40;"><em>sợi</em></span> (fiber).
+
+<figure class="figure">
+  <img src="/images/tensors-geo-app/fibers.jpg" alt="fibers" />
+  <figcaption>
+    Các sợi của một tensor.
+    <a href="https://www.math.ucdavis.edu/~saito/data/tensor/kolda-bader_tensor-decomp-siamrev.pdf" target="_blank" rel="noopener noreferrer">Kolda, Bader</a>.
+  </figcaption>
+</figure>
+:::
+
+
+## Ngoài lề
+### Slice của toán tử nhân ma trận
+::::hint[**Ví dụ slice của toán tử nhân ma trận**]
+Xét toán tử nhân ma trận $2\times 2$
+$$
+\mathcal M \in A\otimes B\otimes C 
+= (U^*\otimes V)\otimes (V^*\otimes W)\otimes (W^*\otimes U)
+$$
+theo cơ sở
+$$
+\bm a_{11} = \bm u_1^*\otimes \bm v_1,\quad
+\bm a_{12} = \bm u_1^*\otimes \bm v_2,\quad
+\bm a_{21} = \bm u_2^*\otimes \bm v_1,\quad
+\bm a_{22} = \bm u_2^*\otimes \bm v_2
+$$
+của $A$, và các cơ sở tương tự cho $B$ và $C$.
+
+:::hint[**Nhắc lại về phép nhân ma trận**]
+Giả sử $U,V,W$ là các không gian vector. Ta muốn mô tả phép nhân ma trận 
+$$
+    (U\to V) \times (V\to W) \to (U\to W).
+$$
+Ta đã biết ở [Phần 2.2, Mục 1.1]( /posts/maths/tensor/tensors-geo-app/tensors-geo-app-multialg-2-2/#không-gian-các-ánh-xạ-tuyến-tính ) rằng một ánh xạ tuyến tính $\bm A:U\to V$ thuộc không gian $(U^*\otimes V)\eqqcolon A$. Khi đó phần tử cơ sở trong $A$ có dạng $\bm u^* \otimes \bm v$.
+:::
+Toán tử nhân ma trận $2\times2$ là tensor
+$$
+\mathcal M = \sum_{i,j,k=1}^2
+(\bm u_i^*\otimes \bm v_j)\otimes
+(\bm v_j^*\otimes \bm w_k)\otimes
+(\bm w_k^*\otimes \bm u_i).
+$$
+
+Nó biểu diễn phép nhân ma trận
+$$
+(\bm X,\bm Y)\longmapsto \bm X \bm Y.
+$$
+
+Ta cố định chỉ số đầu tiên (tức là lấy horizontal slices theo $A$).
+
+Với cơ sở $A$ đã cho,
+slice ứng với $\bm a_{11} = \bm u_1^*\otimes \bm v_1$:
+$$
+\cal M_{\bm a_{11}}
+=
+(\bm v_1^*\otimes \bm w_1)\otimes (\bm w_1^*\otimes \bm u_1)
++
+(\bm v_1^*\otimes \bm w_2)\otimes (\bm w_2^*\otimes \bm u_1).
+$$
+
+Slice ứng với $\bm a_{12} = \bm u_1^*\otimes \bm v_2$:
+$$
+\cal M_{\bm a_{12}}
+=
+(\bm v_2^*\otimes \bm w_1)\otimes (\bm w_1^*\otimes \bm u_1)
++
+(\bm v_2^*\otimes\bm w_2)\otimes (\bm w_2^*\otimes \bm u_1).
+$$
+
+Slice ứng với $\bm a_{21} = \bm u_2^*\otimes \bm v_1$:
+$$
+\cal M_{\bm a_{21}}
+=
+(\bm v_1^*\otimes \bm w_1)\otimes (\bm w_1^*\otimes \bm u_2)
++
+(\bm v_1^*\otimes \bm w_2)\otimes (\bm w_2^*\otimes \bm u_2).
+$$
+
+Slice ứng với $\bm a_{22 }= \bm u_2^*\otimes \bm v_2$:
+$$
+\cal M_{\bm a_{22}}
+=
+(\bm v_2^*\otimes \bm w_1)\otimes (\bm w_1^*\otimes \bm u_2)
++
+(\bm v_2^*\otimes \bm w_2)\otimes (\bm w_2^*\otimes \bm u_2).
+$$
+
+Mỗi slice là một phần tử của $B\otimes C$ và có thể được xem như
+một ma trận $4\times4$ (hoặc dạng khối $2\times2$ của các ma trận $2\times2$).
+
+Cụ thể hơn, mỗi slice tương ứng với việc cố định một cặp chỉ số $(i,j)$
+trong công thức
+$$
+\cal M^{(i,j),(j,k),(k,i)}.
+$$
+
+*Trực giác*:
+Tensor nhân ma trận có cấu trúc
+$\cal M^{i,j,k} = 1$ nếu chỉ số khớp đúng theo $j$,
+và $0$ nếu không khớp.
+Vì vậy mỗi slice theo $A$ chính là
+“giữ cố định một vị trí của ma trận bên trái”
+và cho chỉ số $k$ chạy tự do.
+::::
+
+### Tính giao hoán của tích tensor và đối ngẫu 
+:::hint[]
+Cho $\alpha \in V^*$, $\beta \in W^*$.
+Định nghĩa tác động của $\alpha \otimes \beta \in V^*\otimes W^*$ 
+lên $V\otimes W$ bởi
+$$
+(\alpha\otimes\beta)(\bm v\otimes \bm w)
+=
+\alpha(\bm v)\beta(\bm w),
+$$
+với $\bm v\in V$, $\bm w\in W$, và mở rộng tuyến tính.
+Khi đó phép đồng nhất này xác định một đẳng cấu
+$$
+V^*\otimes W^* \cong (V\otimes W)^*.
+$$
+:::
+
+### Trường vô hướng không làm thay đổi tensor
+::::hint[]
+Ta có
+$$
+V \otimes \mathbb{C} \simeq V.
+$$
+:::hint[]
+Ta định nghĩa ánh xạ tuyến tính
+$$
+\Phi : V \otimes \mathbb{C} \longrightarrow V, \quad \bm v \otimes \lambda \mapsto \lambda \bm v.
+$$
+Mở rộng tuyến tính cho mọi phần tử của $V \otimes \mathbb{C}$.
+
+Định nghĩa
+$$
+\Psi : V \longrightarrow V \otimes \mathbb{C}, \quad \bm v \mapsto \bm v \otimes 1.
+$$
+Rõ ràng $\Psi$ là tuyến tính.
+
+Ta có
+$$
+\Phi(\Psi(\bm v))
+=
+\Phi(\bm v\otimes 1)
+=
+1 \cdot \bm v
+=
+\bm v.
+$$
+Và với tensor hạng-1:
+$$
+\Psi(\Phi(\bm v\otimes\lambda))
+=
+\Psi(\lambda \bm v)
+=
+\lambda \bm v \otimes 1
+= 
+\bm v \otimes \lambda.
+$$
+Suy ra $\Psi \circ \Phi = \mathrm{id}$ và $\Phi \circ \Psi = \mathrm{id}$.
+
+Ta có đẳng cấu tự nhiên
+$$
+V \otimes \mathbb{C} \cong V.
+$$
+:::
+::::
+
+
+### dd 
+::::hint[]
+Với mỗi tập con $I \subset \{1,\dots,k\}$ và tập bù $I^c$,
+tồn tại các đồng nhất tự nhiên
+giữa
+$
+V_1^* \otimes \cdots \otimes V_k^*
+$
+và không gian các ánh xạ đa tuyến tính
+$$
+V_{i_1} \times \cdots \times V_{i_{|I|}}
+\longrightarrow
+V_{i_1^c}^* \otimes \cdots \otimes V_{i_{k-|I|}^c}^*
+$$
+trong đó $\{j_1,\dots,j_{k-|I|}\}=I^c$.
+
+:::hint[]
+Do tính hoán vị tự nhiên của tích tensor, ta có đẳng cấu tự nhiên
+$$
+V_1^* \otimes \cdots \otimes V_k^*
+\cong
+\underbrace{\bigotimes_{i\in I} V_i^* }_{\coloneqq A}
+\otimes
+\underbrace{ \bigotimes_{j\in I^c} V_j^* }_{\coloneqq B} = A\otimes B.
+$$
+Ta biết rằng
+$$
+A = \bigotimes_{i\in I} V_i^*
+\cong
+\mathcal L
+\Big(
+V_1,\ldots, V_{|I|} ; \mathbb{C}
+\Big).
+$$
+
+Do đó một phần tử của $A\otimes B$ có thể được hiểu là
+một ánh xạ đa tuyến tính theo các biến $V_i$ ($i\in I$)
+với giá trị trong $B$.
+
+Tức là có đẳng cấu tự nhiên
+$$
+A\otimes B
+\cong
+\mathcal L
+\Big(
+V_1, \ldots, V_{|I|} ; B
+\Big).
+$$
+
+Với tensor hạng-1
+$$
+\mathcal T =
+ \bigotimes_{i\in I} \alpha_i 
+\otimes
+ \bigotimes_{j\in I^c} \beta_j ,
+$$
+
+ta định nghĩa ánh xạ
+$$
+\Phi_{\cal T} :
+\prod_{i\in I} V_i
+\longrightarrow
+\bigotimes_{j\in I^c} V_j^*, \qquad (v_i)_{i\in I} \longmapsto\left(
+\prod_{i\in I} \alpha_i(v_i)
+\right)
+\bigotimes_{j\in I^c} \beta_j.
+$$
+
+Mở rộng tuyến tính cho tổng các tensor hạng-1,
+ta thu được ánh xạ đa tuyến tính mong muốn.
+
+
+Việc xây dựng chỉ dựa vào:
+
+- hoán vị tự nhiên của tensor,
+- tính chất phổ quát của tích tensor.
+
+Do đó đẳng cấu là tự nhiên (canonical),
+không phụ thuộc chọn cơ sở.
+
+Ngoài ra hai không gian có cùng số chiều hữu hạn,
+nên ánh xạ là song ánh.
+
+Với mọi $I \subset \{1,\dots,k\}$ ta có đẳng cấu tự nhiên
+$$
+V_1^* \otimes \cdots \otimes V_k^*
+\cong
+\mathcal L
+\Big(
+V_{i_1},\ldots V_{i_{|I|}};
+\;
+\bigotimes_{j\in I^c} V_j^*
+\Big).
+$$
+:::
+::::
